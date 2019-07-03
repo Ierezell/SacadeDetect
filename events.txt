@@ -1,0 +1,44 @@
+mouseleave / enter :
+    ts : int
+    cell : int
+    x : float
+    y : float
+
+mousemove :
+    ts : int
+    dt : int
+    dx : int
+    dy : int
+    dl : int
+
+mouseup / down :
+    ts : int
+    cell : int
+    btn: int
+    x : float
+    y: float
+
+wheel :
+    ts : int
+    dt : int
+    dx : float
+    dy : float
+keydown/up :
+    ts : int
+    key : str
+    cell : int
+
+click :
+    ts:int
+    button : str
+
+focusin/out :
+    ts:int
+    cell:int
+
+hidden unload load visible :
+    ts : int
+
+copy / paste / cut :
+    ts : int
+    cell :int
