@@ -2,7 +2,7 @@ import torch
 
 from data import Donnees
 from torch.utils.data import Dataset, DataLoader
-from settings import BATCH_SIZE, PATH_DATASET, DEVICE
+from settings import BATCH_SIZE, DEVICE
 import numpy as np
 
 
@@ -15,9 +15,6 @@ def load_data(pathJson="./Dataset/events.json"):
     donnes.create_voc()
     donnes.to_numeral()
     donnes.to_vector()
-    # for data in donnes.vectorized_persons:
-    #     for events in data[1]:
-    #         print(len(events))
     return donnes.vectorized_persons, donnes.voc
 
 
@@ -29,7 +26,8 @@ class keyboardLoader(Dataset):
     def __getitem__(self, index):
         data = torch.tensor(
             np.array(self.datas[index][1], dtype=np.float), dtype=torch.float)
-        userid = self.datas[index][0]
+        userid = torch.tensor(
+            np.array(self.datas[index][0], dtype=np.float), dtype=torch.long)
         return data, userid
 
     def __len__(self):
@@ -45,13 +43,12 @@ def collate_pad(batch):
         userids.append(userid)
         datas.append(tenseur)
     datas = torch.nn.utils.rnn.pad_sequence(datas)
-
-    userids = torch.tensor(
-        np.array(userids, dtype=np.float), dtype=torch.long)
+    userids = torch.stack(userids)
     return datas, lengths, userids
+# in dataloader : collate_fn=collate_pad
 
 
-def get_data_loader(datas, workers=0):
+def get_data_loader(datas, split_percent=0.8, workers=0):
 
     datas = keyboardLoader(datas=datas)
     # print(len(datas))
@@ -59,10 +56,22 @@ def get_data_loader(datas, workers=0):
     # size_valid = len(datas) - int(0.8 * len(datas))
     # train_datas, valid_datas = random_split(datas, (size_train, size_valid))
     pin = False if DEVICE.type == 'cpu' else True
-    train_loader = DataLoader(datas, batch_size=BATCH_SIZE, shuffle=True,
+
+    train_size = int(split_percent * len(datas))
+    test_size = len(datas) - train_size
+    train_datas, valid_datas = torch.utils.data.random_split(datas,
+                                                             [train_size,
+                                                              test_size])
+
+    train_loader = DataLoader(train_datas, batch_size=BATCH_SIZE, shuffle=True,
                               collate_fn=collate_pad, num_workers=workers,
-                              pin_memory=False)
-    return train_loader
+                              pin_memory=pin)
+
+    valid_loader = DataLoader(valid_datas, batch_size=BATCH_SIZE, shuffle=True,
+                              collate_fn=collate_pad, num_workers=workers,
+                              pin_memory=pin)
+
+    return train_loader, valid_loader
 
 
 # def get_notebooks_person(person_id):

@@ -2,7 +2,7 @@ from torch import nn
 import torch
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence
-from settings import HIDDEN_SIZE
+from settings import HIDDEN_SIZE, DROPOUT
 
 # #######################
 # Luong attention layer #
@@ -13,7 +13,7 @@ class LuongAttention(nn.Module):
     def __init__(self, method, hidden_size):
         super(LuongAttention, self).__init__()
         self.method = method
-        if self.method not in ['dot', 'general', 'concat']:
+        if self.method not in ['dot', 'fullyconnected', 'concat']:
             raise ValueError(
                 f"""{self.method} is not an appropriate attention method.\n
                     Options are: dot, fullyconnected, concat """
@@ -55,7 +55,8 @@ class LuongAttention(nn.Module):
 
 
 class SacadeRnn(nn.Module):
-    def __init__(self, hidden_size, nb_user, n_layers=1, dropout=0.2):
+    def __init__(self, nb_user, hidden_size=HIDDEN_SIZE, n_layers=1,
+                 dropout=DROPOUT):
         super(SacadeRnn, self).__init__()
         self.n_layers = n_layers
         self.hidden_size = hidden_size
@@ -65,9 +66,15 @@ class SacadeRnn(nn.Module):
 
         self.attn = LuongAttention("concat", self.hidden_size)
 
-        self.gru = nn.GRU(hidden_size, hidden_size, n_layers,
-                          dropout=(0 if n_layers == 1 else dropout),
-                          bidirectional=True)
+        self.gru1 = nn.GRU(64, hidden_size, n_layers,
+                           dropout=(0 if n_layers == 1 else 0),
+                           bidirectional=True)
+
+        self.gru2 = nn.GRU(hidden_size*2, hidden_size, n_layers,
+                           dropout=(0 if n_layers == 1 else 0),
+                           bidirectional=True)
+
+        self.attention = nn.Linear(HIDDEN_SIZE*2, HIDDEN_SIZE*2)
 
     def forward(self, sessions, lengths, hidden=None):
         # Convert word indexes to embeddings
@@ -79,28 +86,62 @@ class SacadeRnn(nn.Module):
         # packed = nn.utils.rnn.pack_padded_sequence(embedded, input_lengths)
         # Forward pass through GRU
         packed = pack_padded_sequence(sessions, lengths, enforce_sorted=False)
-        outputs, hidden = self.gru(packed)
-        # Unpack padding
+        outputs, hidden = self.gru1(packed)
         outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
+
+        # print(outputs.size(), hidden.size())
+        attn_weights = self.attention(torch.cat((hidden.squeeze()[0],
+                                                 hidden.squeeze()[1])))
+
+        # print("plop")
+        outputs = outputs * attn_weights
+        # print(outputs.size())
+
+        # packed = pack_padded_sequence(outputs, lengths, enforce_sorted=False)
+        outputs, hidden = self.gru2(outputs)
+        # outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
+        # Unpack padding
         # Sum bidirectional GRU outputs
+        # print("outputs : ", outputs.size())
         # outputs = outputs[:, :, :self.hidden_size] +\
         #     outputs[:, :, self.hidden_size:]
+        # print("sum out : ", outputs.size())
+        # print("sum sum out : ", torch.sum(outputs, dim=0).size())
+        # print("sess : ", sessions.size())
+        # print("hid : ", hidden.size())
+
         # Return output and final hidden state
-        hidden = torch.sum(hidden, dim=0)
-        return hidden
+        # print("sum hid :", hidden.size())
+        # k = torch.sum(outputs, dim=0)
+        # print(k.size())
+        return torch.sum(outputs, dim=0)
 
 
 class Classifier(nn.Module):
     def __init__(self, nb_user, dropout=0.2):
         super(Classifier, self).__init__()
-        self.fc1 = nn.Linear(62, (62+nb_user)//2)
-        self.fc2 = nn.Linear((62+nb_user)//2, nb_user)
+        self.fc1 = nn.Linear(HIDDEN_SIZE*2, HIDDEN_SIZE)
+        self.fc2 = nn.Linear(HIDDEN_SIZE, nb_user)
         self.dropout = nn.Dropout(p=dropout)
 
     def forward(self, x, hidden=None):
-        out = self.dropout(F.relu(self.fc1(x)))
+        out = F.relu(self.dropout(self.fc1(x)))
         # out = F.softmax(self.fc2(out), dim=1)
         out = self.fc2(out)
+        return out
+
+
+class Autoencoder(nn.Module):
+    def __init__(self, input_size, output_size, dropout=0.2):
+        super(Autoencoder, self).__init__()
+        compressed_size = input_size
+        self.fc1 = nn.Linear(input_size, compressed_size)
+        self.fc2 = nn.Linear(compressed_size, output_size)
+        self.dropout = nn.Dropout(p=dropout)
+
+    def forward(self, x, hidden=None):
+        out = F.relu(self.dropout(self.fc1(x)))
+        out = F.relu(self.dropout(self.fc2(out)))
         return out
 
 

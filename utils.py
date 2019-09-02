@@ -1,42 +1,40 @@
+from settings import (DEVICE, PATH_WEIGHTS_RNN,
+                      PATH_WEIGHTS_CLASSIFIER, PATH_WEIGHTS_AUTOENCODER)
+from archi import SacadeRnn, Classifier, Autoencoder
+import torch
 
 
-def load_models(nb_pers, load_previous_state=True):
-    embedder = Embedder()
-    generator = Generator()
-    discriminator = Discriminator(nb_pers)
+def load_models(nb_pers, load_previous_state, load_classifier=True):
+    sacade_rnn = SacadeRnn(nb_pers)
+    classifier = Classifier(nb_pers)
+    autoencoder = Autoencoder(64, 64)
     if load_previous_state:
-        embedder.load_state_dict(torch.load(PATH_WEIGHTS_EMBEDDER))
-        generator.load_state_dict(torch.load(PATH_WEIGHTS_GENERATOR))
-        discriminator.load_state_dict(torch.load(PATH_WEIGHTS_DISCRIMINATOR))
-    # embedder = embedder.to(DEVICE)
-    # generator = generator.to(DEVICE)
-    # discriminator = discriminator.to(DEVICE)
-    return embedder, generator, discriminator
+        sacade_rnn.load_state_dict(torch.load(PATH_WEIGHTS_RNN))
+        autoencoder.load_state_dict(torch.load(PATH_WEIGHTS_AUTOENCODER))
+        if load_classifier:
+            classifier.load_state_dict(torch.load(PATH_WEIGHTS_CLASSIFIER))
+    sacade_rnn = sacade_rnn.to(DEVICE)
+    classifier = classifier.to(DEVICE)
+    autoencoder = autoencoder.to(DEVICE)
+    return sacade_rnn, classifier, autoencoder
 
 
 class Checkpoints:
     def __init__(self):
-        self.losses = {"dsc": [], "cnt": [], "adv": [], "mch": []}
-        self.best_loss_EmbGen = 1e10
-        self.best_loss_Disc = 1e10
+        self.losses = {"loss": []}
+        self.best_loss = 1e10
 
     def addCheckpoint(self, model, loss):
         loss = loss.detach()
         self.losses[model].append(loss)
 
-    def save(self, model, loss, embedder, generator, discriminator):
-        if model == "disc":
-            if loss < self.best_loss_Disc:
-                print('\n'+'-'*25+"\n| Poids disc sauvegardés |\n"+'-'*25+'\n')
-                self.best_loss_Disc = loss
-                torch.save(discriminator.state_dict(),
-                           PATH_WEIGHTS_DISCRIMINATOR)
-        else:
-            if loss < self.best_loss_EmbGen:
-                print('\n'+'-'*31+"\n| Poids Emb & Gen sauvegardés |\n"+'-'*31+'\n')
-                self.best_loss_Emb = loss
-                torch.save(embedder.state_dict(), PATH_WEIGHTS_EMBEDDER)
-                torch.save(generator.state_dict(), PATH_WEIGHTS_GENERATOR)
+    def save(self, model, loss, sacade_rnn, classifier, autoencoder):
+        if len(self.losses[model]) % 500 == 0:
+            print('\n'+'-'*21+"\n| Poids sauvegardés |\n"+'-'*21+'\n')
+            self.best_loss = loss
+            torch.save(sacade_rnn.state_dict(), PATH_WEIGHTS_RNN)
+            torch.save(classifier.state_dict(), PATH_WEIGHTS_CLASSIFIER)
+            torch.save(autoencoder.state_dict(), PATH_WEIGHTS_AUTOENCODER)
 
     def visualize(self, fig, axes,
                   gt_landmarks, synth_im, gt_im, *models,
