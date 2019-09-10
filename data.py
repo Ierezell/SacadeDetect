@@ -1,7 +1,7 @@
 from vocabulary import Voc
 import json
 import itertools
-from settings import TIME_LIMIT, NB_EVENT_LIMIT
+from settings import TIME_LIMIT, NB_EVENT_LIMIT, MIN_EVENT_SIZE
 import math
 
 
@@ -34,6 +34,12 @@ class Donnees:
     def remove_docs(self):
         for session in self.dict_sessions.copy():
             if session["type"] not in ["quiz", "exercise", "exams"]:
+                self.dict_sessions.remove(session)
+
+    def remove_small(self):
+        for session in self.dict_sessions.copy():
+            # print(len(session["events"]))
+            if len(session["events"]) < MIN_EVENT_SIZE:
                 self.dict_sessions.remove(session)
 
     def keep_only(self, list_type):

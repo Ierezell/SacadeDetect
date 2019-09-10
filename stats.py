@@ -1,6 +1,7 @@
 import json
 import numpy as np
 from datetime import datetime
+from settings import MIN_EVENT_SIZE
 
 
 class Stats:
@@ -64,6 +65,12 @@ class Stats:
             if session["type"] not in ["quiz", "exercise", "exams"]:
                 self.dict_sessions.remove(session)
 
+    def remove_small(self):
+        for session in self.dict_sessions.copy():
+            # print(len(session["events"]))
+            if len(session["events"]) < MIN_EVENT_SIZE:
+                self.dict_sessions.remove(session)
+
     def get_titles(self):
         for session in self.dict_sessions:
             self.count_titles[session["title"]] = self.count_titles.get(
@@ -110,9 +117,10 @@ class Stats:
                     self.count_btn_cell[event["cell"]
                                         ] = dict_buttons
                     if event["ts"] - ts_previous_click < 0:
-                        print("ttp mousedown negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_click)
+                        # print("ttp mousedown negatif !  :  ",
+                            #   session["userid"], session["title"], event,
+                            #   event["ts"], ts_previous_click)
+                        pass
                     else:
                         self.ttp_mousedown.append(
                             event["ts"] - ts_previous_click)
@@ -128,9 +136,10 @@ class Stats:
                         self.time_move.append(event["dt"])
 
                     if event["ts"] - ts_previous_move < 0:
-                        print("ttp mousemove negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_move)
+                        # print("ttp mousemove negatif !  :  ",
+                        #       session["userid"], session["title"], event,
+                        #       event["ts"], ts_previous_move)
+                        pass
                     else:
                         self.ttp_move.append(event["ts"] - ts_previous_move)
                         ts_previous_move = event["ts"]
@@ -146,9 +155,10 @@ class Stats:
                         [event["x"], event["y"]])
 
                     if event["ts"] - ts_previous_enter < 0:
-                        print("ttp mouseenter negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_enter)
+                        # print("ttp mouseenter negatif !  :  ",
+                        #       session["userid"], session["title"], event,
+                        #       event["ts"], ts_previous_enter)
+                        pass
                     else:
                         self.ttp_enter.append(event["ts"] - ts_previous_enter)
                         ts_previous_enter = event["ts"]
@@ -163,18 +173,19 @@ class Stats:
                         time_hidden = event["ts"]
                         hidden = True
                     else:
-                        print(session["userid"], session["title"])
-                        print("Double hidden !")
+                        # print(session["userid"], session["title"])
+                        # print("Double hidden !")
                         # raise AssertionError("Double hidden !")
-
+                        pass
                 elif event["type"] == "visible":
                     if hidden == True:
                         self.time_hidden.append(event["ts"]-time_hidden)
                         hidden = False
                     else:
-                        print(session["userid"], session["title"])
-                        print("Double visible !")
+                        # print(session["userid"], session["title"])
+                        # print("Double visible !")
                         # raise AssertionError("Double Visible !")
+                        pass
         print("\n")
 
     def get_focus_infos(self):
@@ -186,9 +197,10 @@ class Stats:
                         event["cell"], 0) + 1
 
                     if event["ts"] - ts_previous_focus < 0:
-                        print("ttp focus negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_focus)
+                        # print("ttp focus negatif !  :  ",
+                        #       session["userid"], session["title"], event,
+                        #       event["ts"], ts_previous_focus)
+                        pass
                     else:
                         self.ttp_focus.append(event["ts"] - ts_previous_focus)
                         ts_previous_focus = event["ts"]
@@ -205,9 +217,10 @@ class Stats:
                     self.dl_wheel.append(event["dl"])
 
                     if event["ts"] - ts_previous_wheel < 0:
-                        print("ttp wheel negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_wheel)
+                        # print("ttp wheel negatif !  :  ",
+                        #       session["userid"], session["title"], event,
+                        #       event["ts"], ts_previous_wheel)
+                        pass
                     else:
                         self.ttp_wheel.append(event["ts"] - ts_previous_wheel)
                         ts_previous_wheel = event["ts"]
@@ -229,9 +242,10 @@ class Stats:
                             event["button"], 0)+1
 
                     if event["ts"] - ts_previous_click < 0:
-                        print("ttp click negatif !  :  ",
-                              session["userid"], session["title"], event,
-                              event["ts"], ts_previous_click)
+                        # print("ttp click negatif !  :  ",
+                        #       session["userid"], session["title"], event,
+                        #       event["ts"], ts_previous_click)
+                        pass
                     else:
                         self.ttp_click.append(event["ts"] - ts_previous_click)
                         ts_previous_click = event["ts"]
@@ -470,6 +484,7 @@ class Stats:
 stat = Stats("./Dataset/events.json")
 stat.remove_mobile()
 stat.remove_docs()
+stat.remove_small()
 stat.get_titles()
 stat.get_types()
 stat.get_browser()

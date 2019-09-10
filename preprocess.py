@@ -11,6 +11,7 @@ def load_data(pathJson="./Dataset/events.json"):
     donnes.load_json()
     donnes.remove_mobile()
     donnes.remove_docs()
+    donnes.remove_small()
     donnes.create_dict_persons()
     donnes.create_voc()
     donnes.to_numeral()

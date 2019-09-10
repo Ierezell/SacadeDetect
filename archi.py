@@ -90,11 +90,11 @@ class SacadeRnn(nn.Module):
         outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
 
         # print(outputs.size(), hidden.size())
-        attn_weights = self.attention(torch.cat((hidden.squeeze()[0],
-                                                 hidden.squeeze()[1])))
+        # attn_weights = self.attention(torch.cat((hidden.squeeze()[0],
+                                                #  hidden.squeeze()[1])))
 
         # print("plop")
-        outputs = outputs * attn_weights
+        # outputs = outputs * attn_weights
         # print(outputs.size())
 
         # packed = pack_padded_sequence(outputs, lengths, enforce_sorted=False)
@@ -125,7 +125,7 @@ class Classifier(nn.Module):
         self.dropout = nn.Dropout(p=dropout)
 
     def forward(self, x, hidden=None):
-        out = F.relu(self.dropout(self.fc1(x)))
+        out = F.selu(self.dropout(self.fc1(x)))
         # out = F.softmax(self.fc2(out), dim=1)
         out = self.fc2(out)
         return out
@@ -140,8 +140,8 @@ class Autoencoder(nn.Module):
         self.dropout = nn.Dropout(p=dropout)
 
     def forward(self, x, hidden=None):
-        out = F.relu(self.dropout(self.fc1(x)))
-        out = F.relu(self.dropout(self.fc2(out)))
+        out = F.selu(self.dropout(self.fc1(x)))
+        out = F.selu(self.dropout(self.fc2(out)))
         return out
 
 

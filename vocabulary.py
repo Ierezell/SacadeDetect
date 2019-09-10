@@ -78,6 +78,10 @@ class Voc:
                         self.count_events[event["type"]] += 1
 
                     if event["type"] == "keydown" or event["type"] == "keyup":
+                        try:
+                            k = event["key"]
+                        except KeyError:
+                            event["key"] = "UKWN"
                         if event["key"] not in self.key2index:
                             self.key2index[event["key"]] = self.num_keys
                             self.count_keys[event["key"]] = 1
@@ -85,7 +89,6 @@ class Voc:
                             self.num_keys += 1
                         else:
                             self.count_keys[event["key"]] += 1
-
                     if event["type"] == "click":
                         if event["button"] not in self.button2index:
                             self.button2index[event["button"]
