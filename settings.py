@@ -9,8 +9,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # #####################
 NB_EPOCHS = 20
 BATCH_SIZE = 16
-LEARNING_RATE = 5e-5
-HIDDEN_SIZE = 512
+LEARNING_RATE = 5e-4
+HIDDEN_SIZE = 256
 
 
 ROOT_WEIGHTS = './weights/'
@@ -54,7 +54,7 @@ if not os.path.exists(ROOT_WEIGHTS + folder_weights):
     os.makedirs(ROOT_WEIGHTS + folder_weights)
     LOAD_PREVIOUS = False
 else:
-    LOAD_PREVIOUS = True
+    LOAD_PREVIOUS = False
 
 PATH_WEIGHTS_RNN = ROOT_WEIGHTS+folder_weights+'Rnn.pt'
 PATH_WEIGHTS_CLASSIFIER = ROOT_WEIGHTS+folder_weights+'Classifier.pt'

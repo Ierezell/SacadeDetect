@@ -1,26 +1,32 @@
 # TODO attention
 # TODO autoencodeur
 
+import datetime
+
+import numpy as np
 import pandas as pd
 import seaborn as sn
-from pandas_ml import ConfusionMatrix
-from preprocess import get_data_loader
-from settings import (DEVICE, NB_EPOCHS, HIDDEN_SIZE, ROOT_DATASET, N_LAYERS,
-                      LOAD_PREVIOUS, LEARNING_RATE, NUM_WORKERS, BATCH_SIZE,
-                      CONFIG, PATH_WEIGHTS_RNN, PATH_WEIGHTS_CLASSIFIER,
-                      PATH_WEIGHTS_AUTOENCODER,)
 import torch
-from torch import nn
-from preprocess import load_data
-from archi import SacadeRnn, Classifier, Autoencoder
 import torch.nn.functional as F
+import wandb
+from matplotlib import pyplot as plt
+from pandas_ml import ConfusionMatrix
 from sklearn.metrics import confusion_matrix
 from sklearn.utils.multiclass import unique_labels
-import numpy as np
-from matplotlib import pyplot as plt
-from utils import Checkpoints, load_models
-import wandb
-import datetime
+from torch import nn
+from tqdm import tqdm
+
+from preprocess import get_data_loader, load_data
+from pretty_conf_mat import plot_confusion_matrix_from_data
+from settings import (BATCH_SIZE, CONFIG, DEVICE, HIDDEN_SIZE, LEARNING_RATE,
+                      LOAD_PREVIOUS, N_LAYERS, NB_EPOCHS, NUM_WORKERS,
+                      PATH_WEIGHTS_AUTOENCODER, PATH_WEIGHTS_CLASSIFIER,
+                      PATH_WEIGHTS_RNN, ROOT_DATASET)
+from utils import Checkpoints, load_models, print_parameters
+
+# plt.ion()
+
+plt.figure()
 wandb.init(project="SacadeDetect",
            name=f"test-{datetime.datetime.now().replace(microsecond=0)}",
            resume=LOAD_PREVIOUS,
@@ -37,6 +43,7 @@ check = Checkpoints()
                             load_classifier=False)
 
 wandb.watch((sacade_rnn, classifier, autoencoder))
+
 Cel = nn.CrossEntropyLoss()
 
 optimizerGru = torch.optim.Adam(sacade_rnn.parameters(), lr=LEARNING_RATE)
@@ -47,11 +54,18 @@ sacade_rnn = sacade_rnn.to(DEVICE)
 classifier = classifier.to(DEVICE)
 autoencoder = autoencoder.to(DEVICE)
 Cel = Cel.to(DEVICE)
+
 # ##########
 # Training #
 # ##########
 print("torch version : ", torch.__version__)
 print("Device : ", DEVICE)
+print("Nombre d'eleves : ", voc.num_user)
+
+print_parameters(sacade_rnn)
+print_parameters(classifier)
+print_parameters(autoencoder)
+
 y_pred = np.array([])
 y_true = np.array([])
 for i_epoch in range(NB_EPOCHS):
@@ -69,9 +83,6 @@ for i_epoch in range(NB_EPOCHS):
         # print(sessions.size())
 
         out = sacade_rnn(sessions, lengths)
-        # TODO out = attention(out)
-        # TODO? out = sacade_rnn(out)
-        # TODO out = attention(out)
 
         out = classifier(out)
         out = out.to(DEVICE)
@@ -92,8 +103,9 @@ for i_epoch in range(NB_EPOCHS):
     sacade_rnn = sacade_rnn.eval()
     classifier = classifier.eval()
     autoencoder = autoencoder.eval()
+    print("EVAL ! ")
     with torch.no_grad():
-        for i_batch, batch in enumerate(train_loader):
+        for i_batch, batch in enumerate(valid_loader):
             sessions, lengths, userids = batch
 
             sessions = sessions.to(DEVICE)
@@ -109,37 +121,46 @@ for i_epoch in range(NB_EPOCHS):
             y_pred = np.append(y_pred, torch.argmax(
                 out, dim=1).cpu().data.squeeze().numpy())
             score += torch.sum(torch.argmax(out, dim=1) == userids)
-            # notGood = list((torch.argmax(out, dim=1) != userids).cpu())
-            # if torch.sum(torch.argmax(out, dim=1) == userids) != BATCH_SIZE:
-            #     val, ind = torch.topk(F.softmax(out, dim=-1), 3, dim=1)
-            #     sort, _ = torch.sort(F.softmax(out, dim=-1), dim=-1)
-            #     sort = sort.cpu().data
-            #     # print("Probabilite sortie : \n", sort.squeeze())
-            #     print(voc.index2title[int(sessions[-1][0][1])])
-            #     print("Trois plus grande prob :")
-            #     for v in val.squeeze().data:
-            #         print(f"{round(float(v.cpu().numpy()),3):>10}", end=" ")
-            #     print("\n")
-            #     for u in ind.squeeze().cpu().data:
-            #         print(f"{voc.index2user[int(u)]:>10}", end=" ")
-            #     print("\n   ", voc.index2user[int(userids)], " <= Real")
+
         print(f"{score}/{len(train_loader)*BATCH_SIZE} => ", end=" ")
         score = float(score)/float(len(train_loader)*BATCH_SIZE)
+
         print(f"score : {score} ")
+        classes = [voc.index2user[u] for u in unique_labels(y_true, y_pred)]
+        p = plot_confusion_matrix_from_data(y_true, y_pred, classes)
+
+        wandb.log({"Score": score})
+        wandb.log({"Confusion matrix": [wandb.Image(plt, caption="conf mat")]})
+
+        wandb.save(PATH_WEIGHTS_AUTOENCODER)
+        wandb.save(PATH_WEIGHTS_CLASSIFIER)
+        wandb.save(PATH_WEIGHTS_RNN)
+
         sacade_rnn = sacade_rnn.train()
         classifier = classifier.train()
         autoencoder = autoencoder.train()
 
-        confusion_matrix = confusion_matrix(y_true, y_pred)
-        classes = [voc.index2user[u] for u in unique_labels(y_true, y_pred)]
-        confusion_matrix = confusion_matrix.astype(
-            'float') / confusion_matrix.sum(axis=1)[:, np.newaxis]
-        s = sn.heatmap(confusion_matrix, annot=True, robust=True, fmt='.1f',
-                       xticklabels=classes, yticklabels=classes)
-        # sn.clustermap(confusion_matrix)
-        wandb.log({"score": score})
-        wandb.log({"Conf Mat": s})
-        wandb.log({"PLT": plt})
-        wandb.save(PATH_WEIGHTS_AUTOENCODER)
-        wandb.save(PATH_WEIGHTS_CLASSIFIER)
-        wandb.save(PATH_WEIGHTS_RNN)
+        # notGood = list((torch.argmax(out, dim=1) != userids).cpu())
+        # if torch.sum(torch.argmax(out, dim=1) == userids) != BATCH_SIZE:
+        #     val, ind = torch.topk(F.softmax(out, dim=-1), 3, dim=1)
+        #     sort, _ = torch.sort(F.softmax(out, dim=-1), dim=-1)
+        #     sort = sort.cpu().data
+        #     # print("Probabilite sortie : \n", sort.squeeze())
+        #     print(voc.index2title[int(sessions[-1][0][1])])
+        #     print("Trois plus grande prob :")
+        #     for v in val.squeeze().data:
+        #         print(f"{round(float(v.cpu().numpy()),3):>10}", end=" ")
+        #     print("\n")
+        #     for u in ind.squeeze().cpu().data:
+        #         print(f"{voc.index2user[int(u)]:>10}", end=" ")
+        #     print("\n   ", voc.index2user[int(userids)], " <= Real")
+
+        # conf_mat = confusion_matrix(y_true, y_pred)
+        # df_conf_mat = pd.DataFrame(conf_mat, index=classes, columns=classes)
+        # # conf_mat = conf_mat.astype(
+        # #     'float') / conf_mat.sum(axis=1)[:, np.newaxis]
+
+        # sn.heatmap(df_conf_mat, annot=True)
+        # # sn.clustermap(confusion_matrix)
+        # plt.show()
+        # wandb.log({"Conf Mat": s})

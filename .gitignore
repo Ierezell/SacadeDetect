@@ -3,6 +3,6 @@ __pycache__/
 nohup.out
 
 weights/
+Dataset/events.json
 Dataset/
-
 wandb/
