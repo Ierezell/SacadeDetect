@@ -9,8 +9,8 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # #####################
 NB_EPOCHS = 20
 BATCH_SIZE = 16
-LEARNING_RATE = 5e-4
-HIDDEN_SIZE = 256
+LEARNING_RATE = 5e-5
+HIDDEN_SIZE = 512
 
 
 ROOT_WEIGHTS = './weights/'
@@ -27,28 +27,23 @@ TIME_LIMIT = 10000
 NB_EVENT_LIMIT = 20
 MIN_EVENT_SIZE = 200
 
-CONFIG = {"N_LAYERS": N_LAYERS,
-          "DROPOUT": DROPOUT,
-          "NB_EVENT_LIMIT": NB_EVENT_LIMIT,
-          "MIN_EVENT_SIZE": MIN_EVENT_SIZE,
-          "ATTN_MODEL": ATTN_MODEL,
-          "HIDDEN_SIZE": HIDDEN_SIZE,
-          "LEARNING_RATE": LEARNING_RATE,
-          "BATCH_SIZE": BATCH_SIZE,
-          "NB_EPOCHS": NB_EPOCHS,
-          "TIME_LIMIT": TIME_LIMIT/100,
+CONFIG = {"N_LAYERS": str(N_LAYERS),
+          "DROPOUT": str(DROPOUT),
+          "NB_EVENT_LIMIT": str(NB_EVENT_LIMIT),
+          "MIN_EVENT_SIZE": str(MIN_EVENT_SIZE),
+          "ATTN_MODEL": str(ATTN_MODEL),
+          "HIDDEN_SIZE": str(HIDDEN_SIZE),
+          "LEARNING_RATE": str(LEARNING_RATE),
+          "BATCH_SIZE": str(BATCH_SIZE),
+          "NB_EPOCHS": str(NB_EPOCHS),
+          "TIME_LIMIT": str(TIME_LIMIT/1000),
           }
 
-folder_weights = str(CONFIG["N_LAYERS"]) + "_" + \
-    str(CONFIG["DROPOUT"])+"_" +\
-    str(CONFIG["NB_EVENT_LIMIT"])+"_" +\
-    str(CONFIG["MIN_EVENT_SIZE"])+"_" +\
-    str(CONFIG["ATTN_MODEL"])+"_" +\
-    str(CONFIG["HIDDEN_SIZE"])+"_" +\
-    str(CONFIG["LEARNING_RATE"])+"_" +\
-    str(CONFIG["BATCH_SIZE"])+"_" +\
-    str(CONFIG["TIME_LIMIT"])+"_" +\
-    str(CONFIG["NB_EPOCHS"])+'/'
+folder_weights = CONFIG["N_LAYERS"] + "_" + CONFIG["DROPOUT"]+"_" +\
+    CONFIG["NB_EVENT_LIMIT"]+"_" + CONFIG["MIN_EVENT_SIZE"]+"_" +\
+    CONFIG["ATTN_MODEL"]+"_" + CONFIG["HIDDEN_SIZE"]+"_" +\
+    CONFIG["LEARNING_RATE"]+"_" + CONFIG["BATCH_SIZE"]+"_" +\
+    CONFIG["TIME_LIMIT"]+"_" + CONFIG["NB_EPOCHS"]+'/'
 
 if not os.path.exists(ROOT_WEIGHTS + folder_weights):
     os.makedirs(ROOT_WEIGHTS + folder_weights)

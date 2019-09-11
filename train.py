@@ -61,6 +61,7 @@ Cel = Cel.to(DEVICE)
 print("torch version : ", torch.__version__)
 print("Device : ", DEVICE)
 print("Nombre d'eleves : ", voc.num_user)
+print("Nombre d'eleve reduit : ", voc.user2index.keys())
 
 print_parameters(sacade_rnn)
 print_parameters(classifier)

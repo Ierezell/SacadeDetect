@@ -14,6 +14,7 @@ def load_data(pathJson="./Dataset/events.json"):
     donnes.remove_small()
     donnes.create_dict_persons()
     donnes.create_voc()
+    donnes.keep_n_student(10)
     donnes.to_numeral()
     donnes.to_vector()
     return donnes.vectorized_persons, donnes.voc

@@ -1,3 +1,4 @@
+import numpy as np
 from vocabulary import Voc
 import json
 import itertools
@@ -65,6 +66,17 @@ class Donnees:
         Dictionary of persons must be filled before creating the vocabulary
         Use donnes.create_dict_persons before using this function! """
         self.voc.infos_to_index(self.dict_persons)
+
+    def keep_n_student(self, n):
+        student_to_keep = np.random.choice(list(self.voc.user2index.keys()),
+                                           size=n)
+        for session in self.dict_sessions.copy():
+            # print(len(session["events"]))
+            if session["userid"] not in student_to_keep:
+                self.dict_sessions.remove(session)
+
+        self.voc = Voc()
+        self.create_voc()
 
     def to_numeral(self):
         assert bool(self.dict_persons), """Dictionary of persons must be filled

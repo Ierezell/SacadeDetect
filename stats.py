@@ -219,7 +219,7 @@ class Stats:
                     if event["ts"] - ts_previous_wheel < 0:
                         # print("ttp wheel negatif !  :  ",
                         #       session["userid"], session["title"], event,
-                        #       event["ts"], ts_previous_wheel)
+                        #       event["ts"], ts_previous_wheel, event["ts"]-ts_previous_wheel)
                         pass
                     else:
                         self.ttp_wheel.append(event["ts"] - ts_previous_wheel)
@@ -242,9 +242,7 @@ class Stats:
                             event["button"], 0)+1
 
                     if event["ts"] - ts_previous_click < 0:
-                        # print("ttp click negatif !  :  ",
-                        #       session["userid"], session["title"], event,
-                        #       event["ts"], ts_previous_click)
+                        #print("ttp click negatif !  :  ", session["userid"], session["title"], event, event["ts"], event["ts"]-ts_previous_click)
                         pass
                     else:
                         self.ttp_click.append(event["ts"] - ts_previous_click)
