@@ -61,7 +61,8 @@ Cel = Cel.to(DEVICE)
 print("torch version : ", torch.__version__)
 print("Device : ", DEVICE)
 print("Nombre d'eleves : ", voc.num_user)
-print("Nombre d'eleve reduit : ", voc.user2index.keys())
+print("Nombre de donnees : ", voc.num_user)
+# print("Nombre d'eleve reduit : ", voc.user2index.keys())
 
 print_parameters(sacade_rnn)
 print_parameters(classifier)
@@ -69,8 +70,8 @@ print_parameters(autoencoder)
 
 y_pred = np.array([])
 y_true = np.array([])
+
 for i_epoch in range(NB_EPOCHS):
-    print(i_epoch)
     for i_batch, batch in enumerate(train_loader):
         # print(i_batch)
         optimizerGru.zero_grad()
@@ -104,7 +105,7 @@ for i_epoch in range(NB_EPOCHS):
     sacade_rnn = sacade_rnn.eval()
     classifier = classifier.eval()
     autoencoder = autoencoder.eval()
-    print("EVAL ! ")
+    print(f"EVAL ! Epoch {i_epoch}")
     with torch.no_grad():
         for i_batch, batch in enumerate(valid_loader):
             sessions, lengths, userids = batch
@@ -123,8 +124,8 @@ for i_epoch in range(NB_EPOCHS):
                 out, dim=1).cpu().data.squeeze().numpy())
             score += torch.sum(torch.argmax(out, dim=1) == userids)
 
-        print(f"{score}/{len(train_loader)*BATCH_SIZE} => ", end=" ")
-        score = float(score)/float(len(train_loader)*BATCH_SIZE)
+        print(f"{score}/{len(valid_loader)*BATCH_SIZE} => ", end=" ")
+        score = float(score)/float(len(valid_loader)*BATCH_SIZE)
 
         print(f"score : {score} ")
         classes = [voc.index2user[u] for u in unique_labels(y_true, y_pred)]

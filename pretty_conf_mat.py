@@ -72,7 +72,8 @@ def configcell_text_and_colors(array_df, lin, col, oText, facecolors, posi, fz, 
         font_prop = fm.FontProperties(weight='bold', size=fz)
         text_kwargs = dict(color='w', ha="center", va="center",
                            gid='sum', fontproperties=font_prop)
-        lis_txt = ['%d' % (cell_val), per_ok_s, '%.2f%%' % (per_err)]
+        # lis_txt = ['%d' % (cell_val), per_ok_s, '%.2f%%' % (per_err)]
+        lis_txt = ['%d' % (cell_val)]
         lis_kwa = [text_kwargs]
         dic = text_kwargs.copy()
         dic['color'] = 'g'
@@ -83,8 +84,8 @@ def configcell_text_and_colors(array_df, lin, col, oText, facecolors, posi, fz, 
         lis_pos = [(oText._x, oText._y-0.3), (oText._x,
                                               oText._y), (oText._x, oText._y+0.3)]
         for i in range(len(lis_txt)):
-            newText = dict(x=lis_pos[i][0], y=lis_pos[i]
-                           [1], text=lis_txt[i], kw=lis_kwa[i])
+            newText = dict(x=lis_pos[i][0], y=lis_pos[i][1],
+                           text=lis_txt[i], kw=lis_kwa[i])
             # print 'lin: %s, col: %s, newText: %s' %(lin, col, newText)
             text_add.append(newText)
         # print '\n'
@@ -97,14 +98,16 @@ def configcell_text_and_colors(array_df, lin, col, oText, facecolors, posi, fz, 
 
     else:
         if(per > 0):
-            txt = '%s\n%.2f%%' % (cell_val, per)
+            # txt = '%s\n%.2f%%' % (cell_val, per)
+            txt = '%s' % (cell_val)
         else:
             if(show_null_values == 0):
                 txt = ''
             elif(show_null_values == 1):
                 txt = '0'
             else:
-                txt = '0\n0.0%'
+                # txt = '0\n0.0%'
+                txt = '0'
         oText.set_text(txt)
 
         # main diagonal
@@ -136,7 +139,7 @@ def insert_totals(df_cm):
 
 
 def pretty_plot_confusion_matrix(df_cm, annot=True, cmap="Oranges", fmt='.2f',
-                                 fz=1, lw=0.1, cbar=False, figsize=[100, 100],
+                                 fz=0.1, lw=0.1, cbar=False, figsize=[100, 100],
                                  show_null_values=0, pred_val_axis='y'):
     """
       print conf matrix with default layout (like matlab)
@@ -220,7 +223,7 @@ def pretty_plot_confusion_matrix(df_cm, annot=True, cmap="Oranges", fmt='.2f',
 
 def plot_confusion_matrix_from_data(y_test, predictions, columns=None,
                                     annot=True, cmap="Oranges", fmt='.2f',
-                                    fz=1, lw=0.1, cbar=False, figsize=[100, 100],
+                                    fz=0.1, lw=0.1, cbar=False, figsize=[100, 100],
                                     show_null_values=0, pred_val_axis='lin'):
     """
         plot confusion matrix function with y_test (actual values) and predictions (predic),

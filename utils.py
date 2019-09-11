@@ -38,7 +38,7 @@ class Checkpoints:
         self.losses[model].append(loss)
 
     def save(self, model, loss, sacade_rnn, classifier, autoencoder):
-        if len(self.losses[model]) % 500 == 0:
+        if loss < self.best_loss or len(self.losses[model]) % 1000 == 0:
             print('\n'+'-'*21+"\n| Poids sauvegardés |\n"+'-'*21+'\n')
             self.best_loss = loss
             torch.save(sacade_rnn.state_dict(), PATH_WEIGHTS_RNN)

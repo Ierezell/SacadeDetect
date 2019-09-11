@@ -61,22 +61,20 @@ class Donnees:
                 self.dict_persons.setdefault(userid,  []
                                              ).append(session_without_id)
 
+    def keep_n_student(self, n):
+        student_to_keep = np.random.choice(list(self.dict_persons.keys()),
+                                           size=n)
+        for user in self.dict_persons.copy().keys():
+            # print(len(session["events"]))
+            # print(session["userid"])
+            if user not in student_to_keep:
+                self.dict_persons.pop(user)
+
     def create_voc(self):
         assert bool(self.dict_persons), """
         Dictionary of persons must be filled before creating the vocabulary
         Use donnes.create_dict_persons before using this function! """
         self.voc.infos_to_index(self.dict_persons)
-
-    def keep_n_student(self, n):
-        student_to_keep = np.random.choice(list(self.voc.user2index.keys()),
-                                           size=n)
-        for session in self.dict_sessions.copy():
-            # print(len(session["events"]))
-            if session["userid"] not in student_to_keep:
-                self.dict_sessions.remove(session)
-
-        self.voc = Voc()
-        self.create_voc()
 
     def to_numeral(self):
         assert bool(self.dict_persons), """Dictionary of persons must be filled

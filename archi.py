@@ -2,7 +2,7 @@ from torch import nn
 import torch
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence
-from settings import HIDDEN_SIZE, DROPOUT
+from settings import HIDDEN_SIZE, DROPOUT, RNN
 
 # #######################
 # Luong attention layer #
@@ -36,6 +36,7 @@ class LuongAttention(nn.Module):
         energy = self.attn(
             torch.cat((hidden.expand(encoder_output.size(0), -1, -1),
                        encoder_output), 2)).tanh()
+
         return torch.sum(self.v * energy, dim=2)
 
     def forward(self, hidden, encoder_outputs):
@@ -48,10 +49,9 @@ class LuongAttention(nn.Module):
             attn_energies = self.dot_score(hidden, encoder_outputs)
 
         # Transpose max_length and batch_size dimensions
-        attn_energies = attn_energies.t()
-
+        # attn_energies = attn_energies.t()
         # Return the softmax normalizedprobability scores(with added dimension)
-        return F.softmax(attn_energies, dim=1).unsqueeze(1)
+        return F.softmax(attn_energies, dim=1)
 
 
 class SacadeRnn(nn.Module):
@@ -65,16 +65,22 @@ class SacadeRnn(nn.Module):
         #     self.embedding_dropout = nn.Dropout(dropout)
 
         self.attn = LuongAttention("concat", self.hidden_size)
+        if RNN == "LSTM":
+            self.rnn1 = nn.LSTM(64, hidden_size, n_layers,
+                                dropout=(0 if n_layers == 1 else 0),
+                                bidirectional=True)
 
-        self.gru1 = nn.GRU(64, hidden_size, n_layers,
-                           dropout=(0 if n_layers == 1 else 0),
-                           bidirectional=True)
+            self.rnn2 = nn.LSTM(hidden_size, hidden_size, n_layers,
+                                dropout=(0 if n_layers == 1 else 0),
+                                bidirectional=True)
+        elif RNN == "GRU":
+            self.rnn1 = nn.GRU(64, hidden_size, n_layers,
+                               dropout=(0 if n_layers == 1 else 0),
+                               bidirectional=True)
 
-        self.gru2 = nn.GRU(hidden_size*2, hidden_size, n_layers,
-                           dropout=(0 if n_layers == 1 else 0),
-                           bidirectional=True)
-
-        self.attention = nn.Linear(HIDDEN_SIZE*2, HIDDEN_SIZE*2)
+            self.rnn2 = nn.GRU(hidden_size, hidden_size, n_layers,
+                               dropout=(0 if n_layers == 1 else 0),
+                               bidirectional=True)
 
     def forward(self, sessions, lengths, hidden=None):
         # Convert word indexes to embeddings
@@ -86,34 +92,23 @@ class SacadeRnn(nn.Module):
         # packed = nn.utils.rnn.pack_padded_sequence(embedded, input_lengths)
         # Forward pass through GRU
         packed = pack_padded_sequence(sessions, lengths, enforce_sorted=False)
-        outputs, hidden = self.gru1(packed)
+        if RNN == "LSTM":
+            outputs, (hidden, cells) = self.rnn1(packed)
+        elif RNN == "GRU":
+            outputs, hidden = self.gru1(packed)
+
         outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
 
-        # print(outputs.size(), hidden.size())
-        # attn_weights = self.attention(torch.cat((hidden.squeeze()[0],
-                                                #  hidden.squeeze()[1])))
+        outputs = outputs[:, :, :self.hidden_size] + \
+            outputs[:, :, self.hidden_size:]
 
-        # print("plop")
-        # outputs = outputs * attn_weights
-        # print(outputs.size())
+        hidden = torch.sum(hidden, dim=0).unsqueeze(0)
+        attn_weights = self.attn(hidden, outputs)
+        outputs = outputs * attn_weights.unsqueeze(-1).repeat(1, 1,
+                                                              self.hidden_size)
 
         # packed = pack_padded_sequence(outputs, lengths, enforce_sorted=False)
-        outputs, hidden = self.gru2(outputs)
-        # outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
-        # Unpack padding
-        # Sum bidirectional GRU outputs
-        # print("outputs : ", outputs.size())
-        # outputs = outputs[:, :, :self.hidden_size] +\
-        #     outputs[:, :, self.hidden_size:]
-        # print("sum out : ", outputs.size())
-        # print("sum sum out : ", torch.sum(outputs, dim=0).size())
-        # print("sess : ", sessions.size())
-        # print("hid : ", hidden.size())
-
-        # Return output and final hidden state
-        # print("sum hid :", hidden.size())
-        # k = torch.sum(outputs, dim=0)
-        # print(k.size())
+        outputs, hidden = self.rnn2(outputs)
         return torch.sum(outputs, dim=0)
 
 
