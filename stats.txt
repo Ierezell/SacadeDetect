@@ -1,0 +1,1241 @@
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 282, 'type': 'click', 'ts': 129482, 'button': 'execute', 'cell': 8} 167811 -38329
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 320, 'type': 'click', 'ts': 160790, 'button': 'interupt', 'cell': 8} 167811 -7021
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 324, 'type': 'click', 'ts': 161589, 'button': 'interupt', 'cell': 8} 167811 -6222
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 327, 'type': 'click', 'ts': 161784, 'button': 'interupt', 'cell': 8} 167811 -6027
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 330, 'type': 'click', 'ts': 164929, 'button': 'interupt', 'cell': 8} 167811 -2882
+ttp click negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 333, 'type': 'click', 'ts': 165130, 'button': 'interupt', 'cell': 8} 167811 -2681
+ttp click negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 851, 'type': 'click', 'ts': 6738903, 'button': 'execute', 'cell': 6} 6742722 -3819
+ttp click negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 861, 'type': 'click', 'ts': 6740563, 'button': 'execute', 'cell': 3} 6742722 -2159
+Double visible :  KzvpLV A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 2624} 0
+Double visible :  KzvpLV A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 6162} 0
+Double visible :  MxHjVn A19 - Fonction split (16) 1 {'i': 1, 'type': 'visible', 'ts': 83289} 0
+Double visible :  jlUY0L A19 - Affectation d'une expression (30) 1 {'i': 1, 'type': 'visible', 'ts': 1170} 0
+Double visible :  TlVsks A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 11361} 0
+Double visible :  VjyqgQ A19 - Affectation simple d'un booléen (28) 1 {'i': 1, 'type': 'visible', 'ts': 6009} 0
+Double visible :  jSHrdG A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 4375} 0
+Double visible :  mI9986 A19 - Patron de chiffres (40) 1 {'i': 1, 'type': 'visible', 'ts': 4183851} 0
+Double visible :  b20lPf A19 - Convertir en radians (68) 1 {'i': 1, 'type': 'visible', 'ts': 398115} 0
+Double hidden :  AsQ9Lr A19 - Découpage d'une sous liste (2) (26) 711 {'i': 711, 'type': 'hidden', 'ts': 322333} 288142
+Double visible :  fTUYzD A19 - Assemblage d'une phrase (67) 1 {'i': 1, 'type': 'visible', 'ts': 712529} 0
+Double visible :  DU7obg A19 - Valeur absolue (37) 1 {'i': 1, 'type': 'visible', 'ts': 2231581} 0
+Double visible :  TWce7f A19 - Insertion d'un élément dans une liste (23) 1 {'i': 1, 'type': 'visible', 'ts': 45962} 0
+Double visible :  rgqvBv A19 - Liste vide (18) 1 {'i': 1, 'type': 'visible', 'ts': 242} 0
+Double visible :  AsQ9Lr A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 148161} 0
+Double visible :  rgqvBv A19 - Affectation d'une chaîne (11) 1 {'i': 1, 'type': 'visible', 'ts': 120} 0
+Double visible :  auvcqi A19 - Classe et opérateur [ ] (69) 29 {'i': 29, 'type': 'visible', 'ts': 29568} 0
+Double visible :  b47aej A19 - Périmètre d'un rectangle (31) 1 {'i': 1, 'type': 'visible', 'ts': 1715} 0
+Double visible :  ko2bQt A19 - Soirée cinéma (44) 1 {'i': 1, 'type': 'visible', 'ts': 246428} 0
+Double visible :  jlUY0L A19 - Périmètre d'un rectangle (31) 1 {'i': 1, 'type': 'visible', 'ts': 245624} 0
+Double visible :  3IhLkM A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 17723} 0
+Double visible :  wQDJfa A19 - Calcul d'une puissance (7) 1 {'i': 1, 'type': 'visible', 'ts': 2988} 0
+Double visible :  3IhLkM A19 - Minuscules et majuscules (13) 1 {'i': 1, 'type': 'visible', 'ts': 141} 0
+Double visible :  3IhLkM A19 - Minuscules et majuscules (13) 1 {'i': 1, 'type': 'visible', 'ts': 3780} 0
+Double visible :  3IhLkM A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 48311} 0
+Double visible :  egUG40 A19 - Maximum des valeurs absolues (38) 1 {'i': 1, 'type': 'visible', 'ts': 5654} 0
+Double visible :  J538S1 A19 - Découpage d'une sous-liste (25) 1 {'i': 1, 'type': 'visible', 'ts': 2666} 0
+Double visible :  QQNae0 A19 - Découpage d'une sous liste (2) (26) 1 {'i': 1, 'type': 'visible', 'ts': 14578} 0
+Double visible :  3IhLkM A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 1978} 0
+Double hidden :  NlauDS A19 - Affectation simple (3) 271 {'i': 271, 'type': 'hidden', 'ts': 60561} 44930
+Double visible :  NlauDS A19 - Affectation simple (3) 272 {'i': 272, 'type': 'visible', 'ts': 63898} 44930
+Double visible :  QQNae0 A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 529} 0
+Double visible :  QQNae0 A19 - Minuscules et majuscules (13) 1 {'i': 1, 'type': 'visible', 'ts': 8557} 0
+Double visible :  Sc0VW3 A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 36193} 0
+Double visible :  3IhLkM A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 40826} 0
+Double visible :  ko2bQt A19 - Soirée cinéma (44) 1 {'i': 1, 'type': 'visible', 'ts': 48411372} 0
+Double visible :  tG0Qhb A19 - Surface d'un rectangle (32) 1 {'i': 1, 'type': 'visible', 'ts': 169048} 0
+Double visible :  MxHjVn A19 - Fonction replace (14) 1 {'i': 1, 'type': 'visible', 'ts': 42263} 0
+Double visible :  eUiYvK A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 9570} 0
+Double visible :  pCX7wa A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 3838} 0
+Double visible :  ev0uHr A19 - Fonction split (16) 1 {'i': 1, 'type': 'visible', 'ts': 19171} 0
+Double visible :  jiMpAf A19 - Fonction strip (15) 1 {'i': 1, 'type': 'visible', 'ts': 777} 0
+Double visible :  4K6Pdc A19 - Fonction avec argument doublement étoilé (60) 1 {'i': 1, 'type': 'visible', 'ts': 38658} 0
+Double visible :  J538S1 A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 724} 0
+Double visible :  J538S1 A19 - Fonction strip (15) 1 {'i': 1, 'type': 'visible', 'ts': 1318} 0
+Double visible :  J538S1 A19 - Fonction replace (14) 1 {'i': 1, 'type': 'visible', 'ts': 3002} 0
+Double visible :  J538S1 A19 - Minuscules et majuscules (13) 1 {'i': 1, 'type': 'visible', 'ts': 18440} 0
+Double visible :  J538S1 A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 14413} 0
+Double visible :  J538S1 A19 - Affectation d'une chaîne (11) 1 {'i': 1, 'type': 'visible', 'ts': 3790} 0
+Double visible :  VP0538 A19 - Minuscules et majuscules (13) 225 {'i': 225, 'type': 'visible', 'ts': 102399} 0
+Double visible :  jiMpAf A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 639} 0
+Double visible :  DSoIMr A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 2333} 0
+Double visible :  auvcqi A19 - Chaîne foldingo (50) 65 {'i': 65, 'type': 'visible', 'ts': 218014} 169653
+Double visible :  aNjFl0 A19 - Autre usage de print (2) 1 {'i': 1, 'type': 'visible', 'ts': 6681} 0
+Double visible :  jlUY0L A19 - Reste de la division (8) 1 {'i': 1, 'type': 'visible', 'ts': 1911} 0
+Double visible :  B4tl5U A19 - Insertion d'un élément dans une liste (23) 1 {'i': 1, 'type': 'visible', 'ts': 3265} 0
+Double visible :  5ueayO A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 511848} 0
+Double visible :  5ueayO A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 526473} 0
+Double hidden :  CymNfq A19 - Expression booléenne (29) 263 {'i': 263, 'type': 'hidden', 'ts': 25465346} 25465346
+Double hidden :  CymNfq A19 - Expression booléenne (29) 275 {'i': 275, 'type': 'hidden', 'ts': 32385837} 31579879
+Double visible :  DU7obg A19 - Valeur absolue (37) 1 {'i': 1, 'type': 'visible', 'ts': 4251353} 0
+Double visible :  DU7obg A19 - Valeur absolue (37) 1 {'i': 1, 'type': 'visible', 'ts': 32419291} 0
+Double visible :  ILRLvQ A19 - Autre usage de print (2) 1 {'i': 1, 'type': 'visible', 'ts': 26985} 0
+Double visible :  aji9J0 A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 63953} 0
+Double visible :  iJXBEx A19 - Affectation d'une chaîne (11) 1 {'i': 1, 'type': 'visible', 'ts': 84076} 0
+Double visible :  PlJxqX A19 - Affectation simple (3) 1 {'i': 1, 'type': 'visible', 'ts': 17000} 0
+Double visible :  PlJxqX A19 - Autre usage de print (2) 263 {'i': 263, 'type': 'visible', 'ts': 85825} 0
+Double visible :  hv4Pn2 A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 6082} 0
+Double visible :  hpTkqS A19 - Formatage d'une chaîne (126) 716 {'i': 716, 'type': 'visible', 'ts': 502107} 495329
+Double visible :  hpTkqS A19 - Formatage d'une chaîne (126) 717 {'i': 717, 'type': 'visible', 'ts': 502107} 495329
+Double visible :  hpTkqS A19 - Reste de la division (8) 1 {'i': 1, 'type': 'visible', 'ts': 4842} 0
+Double visible :  svGk6i A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 691} 0
+Double visible :  GMVhOz A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 8013940} 0
+Double visible :  ko2bQt A19 - Affectation d'une valeur de retour (57) 1 {'i': 1, 'type': 'visible', 'ts': 1041} 0
+Double visible :  RZFgbE A19 - Minimum d'une liste de nombres (41) 1 {'i': 1, 'type': 'visible', 'ts': 66618} 0
+Double visible :  DBiHPK A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 7313} 0
+Double visible :  DBiHPK A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 107336} 0
+Double visible :  o4ftgo A19 - Addition + affectation (4) 1 {'i': 1, 'type': 'visible', 'ts': 1829} 0
+Double visible :  SxrxQe A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 3437000} 0
+Double visible :  dnmC3j A19 - Assemblage d'une phrase (67) 1 {'i': 1, 'type': 'visible', 'ts': 5287} 0
+Double visible :  4MOALp A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 35849} 0
+Double visible :  dnmC3j A19 - Insertion d'un élément dans une liste (23) 1 {'i': 1, 'type': 'visible', 'ts': 32103} 0
+Double visible :  emgq4x A19 - Addition + affectation (4) 1 {'i': 1, 'type': 'visible', 'ts': 5227} 0
+Double visible :  gniOW3 A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 25959} 0
+Double visible :  ee0h2Q A19 - Calcul d'une norme (10) 1 {'i': 1, 'type': 'visible', 'ts': 60976} 0
+Double visible :  J538S1 A19 - Conversion en entier (9) 1 {'i': 1, 'type': 'visible', 'ts': 133045} 0
+Double visible :  J538S1 A19 - Reste de la division (8) 1 {'i': 1, 'type': 'visible', 'ts': 2870} 0
+Double visible :  J538S1 A19 - Calcul d'une puissance (7) 1 {'i': 1, 'type': 'visible', 'ts': 231540} 0
+Double visible :  hv4Pn2 A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 49248} 0
+Double visible :  hKPlA9 A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 5546} 0
+Double hidden :  HkvtID A19 - Fonction replace (14) 526 {'i': 526, 'type': 'hidden', 'ts': 371210} 295504
+Double hidden :  HkvtID A19 - Fonction replace (14) 526 {'i': 526, 'type': 'hidden', 'ts': 371210} 295504
+Double visible :  ce9Vpz A19 - Affectation simple d'un booléen (28) 1 {'i': 1, 'type': 'visible', 'ts': 6647} 0
+Double visible :  qpvJfJ A19 - Fonction input (6) 1067 {'i': 1067, 'type': 'visible', 'ts': 233909} 105251
+Double visible :  pnz4eU A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 2689741} 0
+Double visible :  4Dvn7J A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 3871} 0
+Double visible :  b20lPf A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 15348} 0
+Double visible :  Tu6dK0 A19 - Affectation simple (3) 1 {'i': 1, 'type': 'visible', 'ts': 2491} 0
+Double visible :  nuhpbf A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 4561} 0
+Double visible :  nuhpbf A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 26934} 0
+Double visible :  DBiHPK A19 - Calcul d'une puissance (7) 1 {'i': 1, 'type': 'visible', 'ts': 90085} 0
+Double visible :  U9olDG A19 - Autre usage de print (2) 1 {'i': 1, 'type': 'visible', 'ts': 3932} 0
+Double visible :  U9olDG A19 - Autre usage de print (2) 1 {'i': 1, 'type': 'visible', 'ts': 13273} 0
+Double visible :  DBiHPK A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 38165} 0
+Double visible :  DBiHPK A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 135601} 0
+Double visible :  DBiHPK A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 176840} 0
+Double visible :  4K6Pdc A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 121336} 0
+Double visible :  HTjYtB A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 119448} 0
+Double visible :  RxfaP9 A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 262127} 0
+Double visible :  mbavl6 A19 - Affectation simple (3) 1 {'i': 1, 'type': 'visible', 'ts': 5863} 0
+Double visible :  9USytw A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 10398} 0
+Double visible :  H66jhA A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 45258} 0
+Double visible :  d0v7kN A19 - Affectation simple (3) 117 {'i': 117, 'type': 'visible', 'ts': 91092} 0
+Double visible :  dLgRrz A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 1542} 0
+Double visible :  SI5qC6 A19 - Volume d'un prisme rectangulaire (66) 1 {'i': 1, 'type': 'visible', 'ts': 217041} 0
+Double hidden :  OhzG3t A19 - Un cas parmi quatre (35) 786 {'i': 786, 'type': 'hidden', 'ts': 793518} 793518
+Double visible :  nuhpbf A19 - Usage de print (1) 1 {'i': 1, 'type': 'visible', 'ts': 238748} 0
+Double visible :  30yia4 A19 - Formatage d'une chaîne (126) 1 {'i': 1, 'type': 'visible', 'ts': 26454} 0
+Double visible :  B4tl5U A19 - Fonction replace (14) 1 {'i': 1, 'type': 'visible', 'ts': 21744} 0
+Double visible :  ZSFnO6 A19 - Concaténation de deux sous-listes (27) 1 {'i': 1, 'type': 'visible', 'ts': 43909} 0
+Double visible :  HkvtID A19 - Conversion en entier (9) 10 {'i': 10, 'type': 'visible', 'ts': 144051} 0
+Double visible :  HkvtID A19 - Conversion en entier (9) 10 {'i': 10, 'type': 'visible', 'ts': 144051} 147440
+Double visible :  rGJO4Q A19 - Planifier une réunion (54) 1 {'i': 1, 'type': 'visible', 'ts': 385133} 0
+Double visible :  rGJO4Q A19 - Planifier une réunion (54) 1 {'i': 1, 'type': 'visible', 'ts': 123058} 0
+Double visible :  rGJO4Q A19 - Construction d'un ensemble (55) 1 {'i': 1, 'type': 'visible', 'ts': 6533646} 0
+Double visible :  OhzG3t A19 - Formatage d'une chaîne (126) 13 {'i': 13, 'type': 'visible', 'ts': 167736} 0
+Double visible :  0JFhKz A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 9449} 0
+Double visible :  4K6Pdc A19 - Conversion en entier (9) 1 {'i': 1, 'type': 'visible', 'ts': 13720} 0
+Double visible :  4K6Pdc A19 - Reste de la division (8) 1 {'i': 1, 'type': 'visible', 'ts': 11131} 0
+Double visible :  J538S1 A19 - Calcul d'une expression (5) 1 {'i': 1, 'type': 'visible', 'ts': 626} 0
+Double visible :  J538S1 A19 - Affectation simple (3) 1 {'i': 1, 'type': 'visible', 'ts': 32847} 0
+Double visible :  rw2w9l A19 - Valeur absolue (37) 1 {'i': 1, 'type': 'visible', 'ts': 290812} 0
+Double visible :  RZFgbE A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 4827} 0
+Double visible :  J538S1 A19 - Autre usage de print (2) 196 {'i': 196, 'type': 'visible', 'ts': 66402} 0
+Double visible :  1aRHFA A19 - Maximum des valeurs absolues (38) 1 {'i': 1, 'type': 'visible', 'ts': 87679} 0
+Double visible :  ItqSjX A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 421} 0
+Double visible :  DU7obg A19 - Concaténation de deux chaînes (12) 1 {'i': 1, 'type': 'visible', 'ts': 862812} 0
+Double visible :  PYDaQc H19 - Classe TicTacToe (175) 1 {'i': 1, 'type': 'visible', 'ts': 206007} 0
+Double visible :  PYDaQc H19 - Création d'une grille (174) 1 {'i': 1, 'type': 'visible', 'ts': 2771} 0
+Double visible :  RZFgbE A19 - Reste de la division (8) 1 {'i': 1, 'type': 'visible', 'ts': 21987} 0
+Double visible :  7a5AIa A19 - Fonction input (6) 1 {'i': 1, 'type': 'visible', 'ts': 172} 0
+Double visible :  1aRHFA A19 - Ajout d'un élément dans une liste (22) 1 {'i': 1, 'type': 'visible', 'ts': 2548} 0
+Double visible :  4K6Pdc A19 - Classe Table (70) 1 {'i': 1, 'type': 'visible', 'ts': 944142} 0
+Double visible :  MYMKH7 H19 - Affectation simple (3) 25 {'i': 25, 'type': 'visible', 'ts': 522666541} 0
+Double hidden :  PYDaQc H19 - Classe Table (170) 5925 {'i': 5925, 'type': 'hidden', 'ts': 186897728} 11249017
+Double hidden :  PYDaQc H19 - Classe Table (170) 5925 {'i': 5925, 'type': 'hidden', 'ts': 186897728} 11249017
+
+
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 287, 'type': 'mouseenter', 'ts': 136493, 'cell': 8, 'x': 0.04, 'y': 0.74} 173121 -36628
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 290, 'type': 'mouseenter', 'ts': 136525, 'cell': 7, 'x': 0.11, 'y': 0.97} 173121 -36596
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 294, 'type': 'mouseenter', 'ts': 137220, 'cell': 8, 'x': 0.33, 'y': 0.03} 173121 -35901
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 308, 'type': 'mouseenter', 'ts': 158227, 'cell': 7, 'x': 0.12, 'y': 1.11} 173121 -14894
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 311, 'type': 'mouseenter', 'ts': 158379, 'cell': 8, 'x': 0.1, 'y': 0} 173121 -14742
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 338, 'type': 'mouseenter', 'ts': 166052, 'cell': 8, 'x': 0.15, 'y': 1.32} 173121 -7069
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 341, 'type': 'mouseenter', 'ts': 166180, 'cell': 7, 'x': 0.14, 'y': 1.1} 173121 -6941
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 345, 'type': 'mouseenter', 'ts': 167133, 'cell': 8, 'x': 0.14, 'y': 0.06} 173121 -5988
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 350, 'type': 'mouseenter', 'ts': 167486, 'cell': 8, 'x': 0.07, 'y': 1.35} 173121 -5635
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 357, 'type': 'mouseenter', 'ts': 168096, 'cell': 7, 'x': 0.05, 'y': 1.08} 173121 -5025
+ttp mouseenter negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 361, 'type': 'mouseenter', 'ts': 172305, 'cell': 8, 'x': 0.06, 'y': 0.1} 173121 -816
+ttp mouseenter negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 154, 'type': 'mouseenter', 'ts': 121994, 'cell': 0, 'x': 0, 'y': 0.87} 142871 -20877
+ttp mouseenter negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 161, 'type': 'mouseenter', 'ts': 142405, 'cell': 2, 'x': 0.57, 'y': 0.4} 142871 -466
+ttp mouseenter negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 164, 'type': 'mouseenter', 'ts': 142470, 'cell': 1, 'x': 0.6, 'y': 1.11} 142871 -401
+ttp mouseenter negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 66, 'type': 'mouseenter', 'ts': 218506, 'cell': 8, 'x': 0.09, 'y': 0.05} 230063 -11557
+ttp mouseenter negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 69, 'type': 'mouseenter', 'ts': 218555, 'cell': 9, 'x': 0.07, 'y': 0.02} 230063 -11508
+ttp mouseenter negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 72, 'type': 'mouseenter', 'ts': 218605, 'cell': 10, 'x': 0.03, 'y': 0.02} 230063 -11458
+ttp mouseenter negatif !  :   HkvtID A19 - Fonction replace (14) {'i': 519, 'type': 'mouseenter', 'ts': 370522, 'cell': 7, 'x': 0.14, 'y': 0.31} 370555 -33
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 683, 'type': 'mouseenter', 'ts': 183042, 'cell': 7, 'x': 0.03, 'y': 0.82} 242459 -59417
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 687, 'type': 'mouseenter', 'ts': 183843, 'cell': 8, 'x': 0.25, 'y': 0} 242459 -58616
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 735, 'type': 'mouseenter', 'ts': 197308, 'cell': 8, 'x': 0.08, 'y': 0.24} 242459 -45151
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 738, 'type': 'mouseenter', 'ts': 197393, 'cell': 7, 'x': 0.19, 'y': 0.97} 242459 -45066
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 741, 'type': 'mouseenter', 'ts': 197459, 'cell': 6, 'x': 0.17, 'y': 0.07} 242459 -45000
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 788, 'type': 'mouseenter', 'ts': 208410, 'cell': 7, 'x': 0.05, 'y': 0.06} 242459 -34049
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 791, 'type': 'mouseenter', 'ts': 208443, 'cell': 8, 'x': 0.06, 'y': 0.03} 242459 -34016
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 794, 'type': 'mouseenter', 'ts': 208626, 'cell': 7, 'x': 0.06, 'y': 0.86} 242459 -33833
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 800, 'type': 'mouseenter', 'ts': 209943, 'cell': 4, 'x': 0.05, 'y': 0.31} 242459 -32516
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 805, 'type': 'mouseenter', 'ts': 210994, 'cell': 2, 'x': 0.05, 'y': 0.02} 242459 -31465
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 808, 'type': 'mouseenter', 'ts': 211493, 'cell': 3, 'x': 0.02, 'y': 0.68} 242459 -30966
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 811, 'type': 'mouseenter', 'ts': 211508, 'cell': 4, 'x': 0.02, 'y': 0.02} 242459 -30951
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 814, 'type': 'mouseenter', 'ts': 211558, 'cell': 5, 'x': 0.19, 'y': 0.51} 242459 -30901
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 817, 'type': 'mouseenter', 'ts': 211592, 'cell': 6, 'x': 0.3, 'y': 0.03} 242459 -30867
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 822, 'type': 'mouseenter', 'ts': 211926, 'cell': 7, 'x': 0.19, 'y': 0} 242459 -30533
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 829, 'type': 'mouseenter', 'ts': 212776, 'cell': 6, 'x': 0.09, 'y': 0.8} 242459 -29683
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 847, 'type': 'mouseenter', 'ts': 217477, 'cell': 3, 'x': 0.06, 'y': 0.61} 242459 -24982
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 850, 'type': 'mouseenter', 'ts': 217625, 'cell': 2, 'x': 0.09, 'y': 0.9} 242459 -24834
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 853, 'type': 'mouseenter', 'ts': 217658, 'cell': 1, 'x': 0.02, 'y': 0.02} 242459 -24801
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 856, 'type': 'mouseenter', 'ts': 217709, 'cell': 0, 'x': 0.03, 'y': 0.27} 242459 -24750
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 864, 'type': 'mouseenter', 'ts': 219604, 'cell': 1, 'x': 0.07, 'y': 0.23} 242459 -22855
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 867, 'type': 'mouseenter', 'ts': 221475, 'cell': 2, 'x': 0.08, 'y': 0.08} 242459 -20984
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 870, 'type': 'mouseenter', 'ts': 221508, 'cell': 3, 'x': 0.06, 'y': 0.03} 242459 -20951
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 873, 'type': 'mouseenter', 'ts': 221557, 'cell': 4, 'x': 0.19, 'y': 0} 242459 -20902
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 881, 'type': 'mouseenter', 'ts': 229425, 'cell': 5, 'x': 0.06, 'y': 0.04} 242459 -13034
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 884, 'type': 'mouseenter', 'ts': 229459, 'cell': 6, 'x': 0.1, 'y': 0.02} 242459 -13000
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 887, 'type': 'mouseenter', 'ts': 229476, 'cell': 7, 'x': 0.19, 'y': 0.04} 242459 -12983
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 891, 'type': 'mouseenter', 'ts': 229808, 'cell': 6, 'x': 0.32, 'y': 0.95} 242459 -12651
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 921, 'type': 'mouseenter', 'ts': 237607, 'cell': 5, 'x': 0.04, 'y': 0.85} 242459 -4852
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 925, 'type': 'mouseenter', 'ts': 238159, 'cell': 4, 'x': 0.04, 'y': 0.11} 242459 -4300
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 928, 'type': 'mouseenter', 'ts': 238291, 'cell': 3, 'x': 0.01, 'y': 0.68} 242459 -4168
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 931, 'type': 'mouseenter', 'ts': 238325, 'cell': 2, 'x': 0.15, 'y': 0.9} 242459 -4134
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 934, 'type': 'mouseenter', 'ts': 238358, 'cell': 1, 'x': 0.1, 'y': 0.02} 242459 -4101
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 937, 'type': 'mouseenter', 'ts': 238475, 'cell': 0, 'x': 0.18, 'y': 0.94} 242459 -3984
+ttp mouseenter negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 946, 'type': 'mouseenter', 'ts': 239841, 'cell': 0, 'x': 0.04, 'y': 0.08} 242459 -2618
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 668, 'type': 'mouseenter', 'ts': 6688099, 'cell': 5, 'x': 0.26, 'y': 0.04} 6744443 -56344
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 671, 'type': 'mouseenter', 'ts': 6688948, 'cell': 7, 'x': 0.26, 'y': 0.04} 6744443 -55495
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 674, 'type': 'mouseenter', 'ts': 6689182, 'cell': 6, 'x': 0.24, 'y': 0.97} 6744443 -55261
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 678, 'type': 'mouseenter', 'ts': 6690082, 'cell': 5, 'x': 0.23, 'y': 0.98} 6744443 -54361
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 681, 'type': 'mouseenter', 'ts': 6692345, 'cell': 6, 'x': 0.23, 'y': 0} 6744443 -52098
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 686, 'type': 'mouseenter', 'ts': 6694561, 'cell': 7, 'x': 0.14, 'y': 0.09} 6744443 -49882
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 690, 'type': 'mouseenter', 'ts': 6695910, 'cell': 4, 'x': 0.1, 'y': 0.07} 6744443 -48533
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 694, 'type': 'mouseenter', 'ts': 6698424, 'cell': 7, 'x': 0.14, 'y': 0.18} 6744443 -46019
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 697, 'type': 'mouseenter', 'ts': 6698658, 'cell': 6, 'x': 0.13, 'y': 0.75} 6744443 -45785
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 823, 'type': 'mouseenter', 'ts': 6735080, 'cell': 4, 'x': 0.15, 'y': 0.03} 6744443 -9363
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 828, 'type': 'mouseenter', 'ts': 6736046, 'cell': 6, 'x': 0.12, 'y': 0.07} 6744443 -8397
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 841, 'type': 'mouseenter', 'ts': 6737995, 'cell': 5, 'x': 0.02, 'y': 0.97} 6744443 -6448
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 846, 'type': 'mouseenter', 'ts': 6738327, 'cell': 6, 'x': 0, 'y': 0.1} 6744443 -6116
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 854, 'type': 'mouseenter', 'ts': 6739843, 'cell': 4, 'x': 0.04, 'y': 0.07} 6744443 -4600
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 857, 'type': 'mouseenter', 'ts': 6740192, 'cell': 3, 'x': 0.05, 'y': 0.7} 6744443 -4251
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 864, 'type': 'mouseenter', 'ts': 6741075, 'cell': 4, 'x': 0.11, 'y': 0.03} 6744443 -3368
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 871, 'type': 'mouseenter', 'ts': 6743541, 'cell': 1, 'x': 0.3, 'y': 0.16} 6744443 -902
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 874, 'type': 'mouseenter', 'ts': 6743840, 'cell': 2, 'x': 0.34, 'y': 0.21} 6744443 -603
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 877, 'type': 'mouseenter', 'ts': 6743873, 'cell': 3, 'x': 0.34, 'y': 0.14} 6744443 -570
+ttp mouseenter negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 880, 'type': 'mouseenter', 'ts': 6743906, 'cell': 4, 'x': 0.47, 'y': 0} 6744443 -537
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 12, 'type': 'mouseenter', 'ts': 144690, 'cell': 0, 'x': 0.04, 'y': 0.03} 174972 -30282
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 15, 'type': 'mouseenter', 'ts': 144773, 'cell': 1, 'x': 0.02, 'y': 0.34} 174972 -30199
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 18, 'type': 'mouseenter', 'ts': 144889, 'cell': 2, 'x': 0.1, 'y': -0.03} 174972 -30083
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 24, 'type': 'mouseenter', 'ts': 146655, 'cell': 3, 'x': 0, 'y': 0.76} 174972 -28317
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 27, 'type': 'mouseenter', 'ts': 146673, 'cell': 2, 'x': 0, 'y': 0.87} 174972 -28299
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 34, 'type': 'mouseenter', 'ts': 174855, 'cell': 0, 'x': 0.09, 'y': 0.03} 174972 -117
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 37, 'type': 'mouseenter', 'ts': 174873, 'cell': 1, 'x': 0.1, 'y': -0.01} 174972 -99
+ttp mouseenter negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 40, 'type': 'mouseenter', 'ts': 174939, 'cell': 2, 'x': 0.11, 'y': 0.13} 174972 -33
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 137, 'type': 'mouseenter', 'ts': 159816, 'cell': 7, 'x': 0.07, 'y': 0.03} 180182 -20366
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 140, 'type': 'mouseenter', 'ts': 159849, 'cell': 8, 'x': 0.07, 'y': -0.02} 180182 -20333
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 145, 'type': 'mouseenter', 'ts': 161417, 'cell': 7, 'x': 0.07, 'y': 0.78} 180182 -18765
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 148, 'type': 'mouseenter', 'ts': 161482, 'cell': 6, 'x': 0.01, 'y': 0.33} 180182 -18700
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 151, 'type': 'mouseenter', 'ts': 161516, 'cell': 5, 'x': 0.06, 'y': 0.94} 180182 -18666
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 154, 'type': 'mouseenter', 'ts': 161583, 'cell': 1, 'x': 0.04, 'y': 0.91} 180182 -18599
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 157, 'type': 'mouseenter', 'ts': 161666, 'cell': 0, 'x': 0.03, 'y': 0.95} 180182 -18516
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 166, 'type': 'mouseenter', 'ts': 163932, 'cell': 0, 'x': 0.01, 'y': -0.03} 180182 -16250
+ttp mouseenter negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 169, 'type': 'mouseenter', 'ts': 163950, 'cell': 1, 'x': 0.06, 'y': 0} 180182 -16232
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 230, 'type': 'mousemove', 'ts': 121296, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -57878
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 269, 'type': 'mousemove', 'ts': 127321, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -51853
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 273, 'type': 'mousemove', 'ts': 127561, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -51613
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 275, 'type': 'mousemove', 'ts': 127954, 'dt': 513, 'dx': 456, 'dy': -16, 'dl': 474} 179174 -51220
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 278, 'type': 'mousemove', 'ts': 128722, 'dt': 618, 'dx': -564, 'dy': 12, 'dl': 564} 179174 -50452
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 283, 'type': 'mousemove', 'ts': 130191, 'dt': 43, 'dx': 8, 'dy': 32, 'dl': 32} 179174 -48983
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 285, 'type': 'mousemove', 'ts': 130240, 'dt': 16, 'dx': 22, 'dy': 60, 'dl': 64} 179174 -48934
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 286, 'type': 'mousemove', 'ts': 136469, 'dt': 17, 'dx': 54, 'dy': -94, 'dl': 110} 179174 -42705
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 288, 'type': 'mousemove', 'ts': 136493, 'dt': 25, 'dx': 66, 'dy': -88, 'dl': 112} 179174 -42681
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 291, 'type': 'mousemove', 'ts': 136526, 'dt': 272, 'dx': 220, 'dy': -80, 'dl': 250} 179174 -42648
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 292, 'type': 'mousemove', 'ts': 137093, 'dt': 120, 'dx': 76, 'dy': 72, 'dl': 114} 179174 -42081
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 295, 'type': 'mousemove', 'ts': 137220, 'dt': 122, 'dx': 4, 'dy': 46, 'dl': 46} 179174 -41954
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 296, 'type': 'mousemove', 'ts': 137655, 'dt': 129, 'dx': 0, 'dy': 6, 'dl': 6} 179174 -41519
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 300, 'type': 'mousemove', 'ts': 138427, 'dt': 1, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -40747
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 301, 'type': 'mousemove', 'ts': 138995, 'dt': 49, 'dx': 2, 'dy': 0, 'dl': 2} 179174 -40179
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 302, 'type': 'mousemove', 'ts': 148912, 'dt': 712, 'dx': -160, 'dy': 32, 'dl': 176} 179174 -30262
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 303, 'type': 'mousemove', 'ts': 153190, 'dt': 691, 'dx': -172, 'dy': -16, 'dl': 208} 179174 -25984
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 304, 'type': 'mousemove', 'ts': 154690, 'dt': 33, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -24484
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 305, 'type': 'mousemove', 'ts': 156010, 'dt': 33, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -23164
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 306, 'type': 'mousemove', 'ts': 158034, 'dt': 185, 'dx': -112, 'dy': -60, 'dl': 126} 179174 -21140
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 309, 'type': 'mousemove', 'ts': 158227, 'dt': 144, 'dx': -44, 'dy': -4, 'dl': 44} 179174 -20947
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 312, 'type': 'mousemove', 'ts': 158379, 'dt': 184, 'dx': -62, 'dy': 32, 'dl': 70} 179174 -20795
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 313, 'type': 'mousemove', 'ts': 159044, 'dt': 337, 'dx': -42, 'dy': 14, 'dl': 56} 179174 -20130
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 314, 'type': 'mousemove', 'ts': 159740, 'dt': 33, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -19434
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 315, 'type': 'mousemove', 'ts': 160084, 'dt': 57, 'dx': 0, 'dy': 2, 'dl': 2} 179174 -19090
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 316, 'type': 'mousemove', 'ts': 160446, 'dt': 177, 'dx': 0, 'dy': 2, 'dl': 2} 179174 -18728
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 321, 'type': 'mousemove', 'ts': 161098, 'dt': 321, 'dx': 0, 'dy': 4, 'dl': 28} 179174 -18076
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 334, 'type': 'mousemove', 'ts': 165324, 'dt': 9, 'dx': 12, 'dy': 22, 'dl': 26} 179174 -13850
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 336, 'type': 'mousemove', 'ts': 165341, 'dt': 18, 'dx': 44, 'dy': 72, 'dl': 84} 179174 -13833
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 337, 'type': 'mousemove', 'ts': 166020, 'dt': 25, 'dx': -14, 'dy': -74, 'dl': 74} 179174 -13154
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 339, 'type': 'mousemove', 'ts': 166052, 'dt': 121, 'dx': -16, 'dy': -98, 'dl': 98} 179174 -13122
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 342, 'type': 'mousemove', 'ts': 166181, 'dt': 209, 'dx': -2, 'dy': -56, 'dl': 56} 179174 -12993
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 346, 'type': 'mousemove', 'ts': 167133, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -12041
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 347, 'type': 'mousemove', 'ts': 167286, 'dt': 72, 'dx': -68, 'dy': 80, 'dl': 106} 179174 -11888
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 349, 'type': 'mousemove', 'ts': 167366, 'dt': 113, 'dx': -90, 'dy': 4, 'dl': 102} 179174 -11808
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 351, 'type': 'mousemove', 'ts': 167486, 'dt': 219, 'dx': -30, 'dy': -44, 'dl': 56} 179174 -11688
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 355, 'type': 'mousemove', 'ts': 168072, 'dt': 17, 'dx': -6, 'dy': -24, 'dl': 26} 179174 -11102
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 358, 'type': 'mousemove', 'ts': 168097, 'dt': 240, 'dx': -36, 'dy': -244, 'dl': 254} 179174 -11077
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 359, 'type': 'mousemove', 'ts': 172183, 'dt': 115, 'dx': 42, 'dy': 212, 'dl': 214} 179174 -6991
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 362, 'type': 'mousemove', 'ts': 172305, 'dt': 18, 'dx': 6, 'dy': 16, 'dl': 16} 179174 -6869
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 363, 'type': 'mousemove', 'ts': 172633, 'dt': 480, 'dx': 4, 'dy': -10, 'dl': 42} 179174 -6541
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 366, 'type': 'mousemove', 'ts': 173121, 'dt': 458, 'dx': -62, 'dy': -226, 'dl': 230} 179174 -6053
+ttp mousemove negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 367, 'type': 'mousemove', 'ts': 173699, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 179174 -5475
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 151, 'type': 'mousemove', 'ts': 121780, 'dt': 3, 'dx': -27, 'dy': 16, 'dl': 31} 142895 -21115
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 153, 'type': 'mousemove', 'ts': 121785, 'dt': 201, 'dx': -16, 'dy': 32, 'dl': 116} 142895 -21110
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 155, 'type': 'mousemove', 'ts': 121995, 'dt': 127, 'dx': 238, 'dy': -42, 'dl': 238} 142895 -20900
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 156, 'type': 'mousemove', 'ts': 122426, 'dt': 259, 'dx': 144, 'dy': -50, 'dl': 156} 142895 -20469
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 158, 'type': 'mousemove', 'ts': 122692, 'dt': 449, 'dx': 76, 'dy': -102, 'dl': 202} 142895 -20203
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 160, 'type': 'mousemove', 'ts': 123516, 'dt': 32, 'dx': 62, 'dy': -40, 'dl': 73} 142895 -19379
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 162, 'type': 'mousemove', 'ts': 142406, 'dt': 54, 'dx': -112, 'dy': -78, 'dl': 134} 142895 -489
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 165, 'type': 'mousemove', 'ts': 142470, 'dt': 114, 'dx': -350, 'dy': -138, 'dl': 380} 142895 -425
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 166, 'type': 'mousemove', 'ts': 142847, 'dt': 18, 'dx': 18, 'dy': -34, 'dl': 40} 142895 -48
+ttp mousemove negatif !  :   UntR21 A19 - Addition + affectation (4) {'i': 169, 'type': 'mousemove', 'ts': 142871, 'dt': 19, 'dx': 84, 'dy': -120, 'dl': 146} 142895 -24
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 67, 'type': 'mousemove', 'ts': 218506, 'dt': 32, 'dx': -8, 'dy': 150, 'dl': 150} 240955 -22449
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 70, 'type': 'mousemove', 'ts': 218556, 'dt': 33, 'dx': -22, 'dy': 133, 'dl': 135} 240955 -22399
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 73, 'type': 'mousemove', 'ts': 218605, 'dt': 49, 'dx': 0, 'dy': 33, 'dl': 34} 240955 -22350
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 75, 'type': 'mousemove', 'ts': 229496, 'dt': 383, 'dx': 96, 'dy': 157, 'dl': 195} 240955 -11459
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 77, 'type': 'mousemove', 'ts': 229897, 'dt': 148, 'dx': 19, 'dy': 2, 'dl': 23} 240955 -11058
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 79, 'type': 'mousemove', 'ts': 230063, 'dt': 132, 'dx': -19, 'dy': -38, 'dl': 43} 240955 -10892
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 80, 'type': 'mousemove', 'ts': 230362, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -10593
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 81, 'type': 'mousemove', 'ts': 230511, 'dt': 84, 'dx': -2, 'dy': 0, 'dl': 2} 240955 -10444
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 82, 'type': 'mousemove', 'ts': 230712, 'dt': 0, 'dx': 0, 'dy': 1, 'dl': 1} 240955 -10243
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 83, 'type': 'mousemove', 'ts': 232578, 'dt': 15, 'dx': -1, 'dy': -1, 'dl': 2} 240955 -8377
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 84, 'type': 'mousemove', 'ts': 233277, 'dt': 166, 'dx': 2, 'dy': -3, 'dl': 4} 240955 -7678
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 85, 'type': 'mousemove', 'ts': 233592, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 240955 -7363
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 86, 'type': 'mousemove', 'ts': 233759, 'dt': 83, 'dx': 0, 'dy': -2, 'dl': 2} 240955 -7196
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 87, 'type': 'mousemove', 'ts': 233942, 'dt': 517, 'dx': 88, 'dy': 1, 'dl': 97} 240955 -7013
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 88, 'type': 'mousemove', 'ts': 234642, 'dt': 700, 'dx': 19, 'dy': 24, 'dl': 98} 240955 -6313
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 89, 'type': 'mousemove', 'ts': 235475, 'dt': 16, 'dx': -1, 'dy': 1, 'dl': 2} 240955 -5480
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 90, 'type': 'mousemove', 'ts': 235624, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -5331
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 91, 'type': 'mousemove', 'ts': 235774, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -5181
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 92, 'type': 'mousemove', 'ts': 235892, 'dt': 565, 'dx': -110, 'dy': -60, 'dl': 127} 240955 -5063
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 93, 'type': 'mousemove', 'ts': 236557, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -4398
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 94, 'type': 'mousemove', 'ts': 236690, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -4265
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 95, 'type': 'mousemove', 'ts': 236957, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 240955 -3998
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 96, 'type': 'mousemove', 'ts': 237539, 'dt': 0, 'dx': 1, 'dy': 0, 'dl': 1} 240955 -3416
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 97, 'type': 'mousemove', 'ts': 238788, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 240955 -2167
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 98, 'type': 'mousemove', 'ts': 239688, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 240955 -1267
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 99, 'type': 'mousemove', 'ts': 240022, 'dt': 365, 'dx': -43, 'dy': -24, 'dl': 52} 240955 -933
+ttp mousemove negatif !  :   auvcqi A19 - Chaîne foldingo (50) {'i': 100, 'type': 'mousemove', 'ts': 240521, 'dt': 150, 'dx': -9, 'dy': -2, 'dl': 9} 240955 -434
+ttp mousemove negatif !  :   HkvtID A19 - Fonction replace (14) {'i': 517, 'type': 'mousemove', 'ts': 370504, 'dt': 0, 'dx': -2, 'dy': -4, 'dl': 4} 370555 -51
+ttp mousemove negatif !  :   HkvtID A19 - Fonction replace (14) {'i': 520, 'type': 'mousemove', 'ts': 370522, 'dt': 15, 'dx': -36, 'dy': -104, 'dl': 110} 370555 -33
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 674, 'type': 'mousemove', 'ts': 180976, 'dt': 599, 'dx': -197, 'dy': 5, 'dl': 202} 242475 -61499
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 677, 'type': 'mousemove', 'ts': 181725, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 242475 -60750
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 680, 'type': 'mousemove', 'ts': 181775, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -60700
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 681, 'type': 'mousemove', 'ts': 182527, 'dt': 499, 'dx': -24, 'dy': -10, 'dl': 124} 242475 -59948
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 684, 'type': 'mousemove', 'ts': 183043, 'dt': 82, 'dx': -29, 'dy': -99, 'dl': 104} 242475 -59432
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 685, 'type': 'mousemove', 'ts': 183508, 'dt': 317, 'dx': 256, 'dy': 88, 'dl': 280} 242475 -58967
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 688, 'type': 'mousemove', 'ts': 183843, 'dt': 15, 'dx': 10, 'dy': 2, 'dl': 10} 242475 -58632
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 689, 'type': 'mousemove', 'ts': 183958, 'dt': 167, 'dx': 54, 'dy': 17, 'dl': 57} 242475 -58517
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 692, 'type': 'mousemove', 'ts': 184304, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -58171
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 694, 'type': 'mousemove', 'ts': 184677, 'dt': 398, 'dx': -67, 'dy': 53, 'dl': 89} 242475 -57798
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 695, 'type': 'mousemove', 'ts': 185493, 'dt': 50, 'dx': -4, 'dy': -10, 'dl': 10} 242475 -56982
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 696, 'type': 'mousemove', 'ts': 185658, 'dt': 51, 'dx': -13, 'dy': -3, 'dl': 13} 242475 -56817
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 725, 'type': 'mousemove', 'ts': 194026, 'dt': 617, 'dx': -162, 'dy': -44, 'dl': 330} 242475 -48449
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 728, 'type': 'mousemove', 'ts': 195096, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -47379
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 731, 'type': 'mousemove', 'ts': 195558, 'dt': 50, 'dx': -19, 'dy': 71, 'dl': 74} 242475 -46917
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 733, 'type': 'mousemove', 'ts': 195627, 'dt': 15, 'dx': -6, 'dy': 78, 'dl': 78} 242475 -46848
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 734, 'type': 'mousemove', 'ts': 197293, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 242475 -45182
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 736, 'type': 'mousemove', 'ts': 197309, 'dt': 67, 'dx': 132, 'dy': -147, 'dl': 199} 242475 -45166
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 739, 'type': 'mousemove', 'ts': 197394, 'dt': 48, 'dx': 117, 'dy': -125, 'dl': 172} 242475 -45081
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 742, 'type': 'mousemove', 'ts': 197459, 'dt': 149, 'dx': -3, 'dy': -77, 'dl': 84} 242475 -45016
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 743, 'type': 'mousemove', 'ts': 197741, 'dt': 68, 'dx': -38, 'dy': 31, 'dl': 48} 242475 -44734
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 747, 'type': 'mousemove', 'ts': 198459, 'dt': 84, 'dx': -5, 'dy': -22, 'dl': 23} 242475 -44016
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 748, 'type': 'mousemove', 'ts': 198675, 'dt': 133, 'dx': -4, 'dy': 17, 'dl': 18} 242475 -43800
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 749, 'type': 'mousemove', 'ts': 199125, 'dt': 101, 'dx': -1, 'dy': -9, 'dl': 9} 242475 -43350
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 764, 'type': 'mousemove', 'ts': 202643, 'dt': 248, 'dx': 11, 'dy': 27, 'dl': 35} 242475 -39832
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 765, 'type': 'mousemove', 'ts': 203008, 'dt': 168, 'dx': -8, 'dy': -10, 'dl': 15} 242475 -39467
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 780, 'type': 'mousemove', 'ts': 206843, 'dt': 515, 'dx': -185, 'dy': -1, 'dl': 190} 242475 -35632
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 781, 'type': 'mousemove', 'ts': 207459, 'dt': 33, 'dx': -12, 'dy': -15, 'dl': 19} 242475 -35016
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 786, 'type': 'mousemove', 'ts': 208392, 'dt': 0, 'dx': -3, 'dy': 15, 'dl': 15} 242475 -34083
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 789, 'type': 'mousemove', 'ts': 208410, 'dt': 15, 'dx': 2, 'dy': 126, 'dl': 126} 242475 -34065
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 792, 'type': 'mousemove', 'ts': 208443, 'dt': 165, 'dx': 3, 'dy': 33, 'dl': 41} 242475 -34032
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 795, 'type': 'mousemove', 'ts': 208626, 'dt': 198, 'dx': -12, 'dy': -77, 'dl': 77} 242475 -33849
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 796, 'type': 'mousemove', 'ts': 209058, 'dt': 51, 'dx': 5, 'dy': 29, 'dl': 29} 242475 -33417
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 806, 'type': 'mousemove', 'ts': 211459, 'dt': 16, 'dx': 25, 'dy': 46, 'dl': 52} 242475 -31016
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 809, 'type': 'mousemove', 'ts': 211494, 'dt': 0, 'dx': 39, 'dy': 55, 'dl': 67} 242475 -30981
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 812, 'type': 'mousemove', 'ts': 211509, 'dt': 33, 'dx': 155, 'dy': 254, 'dl': 297} 242475 -30966
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 815, 'type': 'mousemove', 'ts': 211559, 'dt': 16, 'dx': 45, 'dy': 106, 'dl': 115} 242475 -30916
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 818, 'type': 'mousemove', 'ts': 211592, 'dt': 166, 'dx': 9, 'dy': 45, 'dl': 49} 242475 -30883
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 820, 'type': 'mousemove', 'ts': 211908, 'dt': 0, 'dx': -6, 'dy': -4, 'dl': 7} 242475 -30567
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 823, 'type': 'mousemove', 'ts': 211926, 'dt': 33, 'dx': -12, 'dy': -9, 'dl': 15} 242475 -30549
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 824, 'type': 'mousemove', 'ts': 212072, 'dt': 104, 'dx': -19, 'dy': -40, 'dl': 44} 242475 -30403
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 826, 'type': 'mousemove', 'ts': 212192, 'dt': 0, 'dx': 0, 'dy': -3, 'dl': 3} 242475 -30283
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 827, 'type': 'mousemove', 'ts': 212292, 'dt': 467, 'dx': -57, 'dy': -105, 'dl': 123} 242475 -30183
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 830, 'type': 'mousemove', 'ts': 212776, 'dt': 81, 'dx': -8, 'dy': -39, 'dl': 40} 242475 -29699
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 831, 'type': 'mousemove', 'ts': 213092, 'dt': 232, 'dx': -5, 'dy': 14, 'dl': 31} 242475 -29383
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 834, 'type': 'mousemove', 'ts': 213487, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -28988
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 838, 'type': 'mousemove', 'ts': 214858, 'dt': 684, 'dx': -150, 'dy': -5, 'dl': 253} 242475 -27617
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 839, 'type': 'mousemove', 'ts': 215776, 'dt': 115, 'dx': -2, 'dy': -19, 'dl': 19} 242475 -26699
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 842, 'type': 'mousemove', 'ts': 216375, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -26100
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 848, 'type': 'mousemove', 'ts': 217607, 'dt': 0, 'dx': 3, 'dy': -9, 'dl': 9} 242475 -24868
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 851, 'type': 'mousemove', 'ts': 217626, 'dt': 16, 'dx': 43, 'dy': -89, 'dl': 99} 242475 -24849
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 854, 'type': 'mousemove', 'ts': 217658, 'dt': 34, 'dx': 30, 'dy': -127, 'dl': 132} 242475 -24817
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 857, 'type': 'mousemove', 'ts': 217709, 'dt': 0, 'dx': -4, 'dy': -59, 'dl': 59} 242475 -24766
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 859, 'type': 'mousemove', 'ts': 217725, 'dt': 33, 'dx': -11, 'dy': -102, 'dl': 103} 242475 -24750
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 860, 'type': 'mousemove', 'ts': 218042, 'dt': 65, 'dx': 15, 'dy': 48, 'dl': 50} 242475 -24433
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 861, 'type': 'mousemove', 'ts': 218408, 'dt': 49, 'dx': -4, 'dy': -13, 'dl': 14} 242475 -24067
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 862, 'type': 'mousemove', 'ts': 218641, 'dt': 50, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -23834
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 865, 'type': 'mousemove', 'ts': 221422, 'dt': 36, 'dx': -1, 'dy': 51, 'dl': 51} 242475 -21053
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 868, 'type': 'mousemove', 'ts': 221475, 'dt': 18, 'dx': 7, 'dy': 42, 'dl': 43} 242475 -21000
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 871, 'type': 'mousemove', 'ts': 221508, 'dt': 33, 'dx': 17, 'dy': 67, 'dl': 69} 242475 -20967
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 874, 'type': 'mousemove', 'ts': 221557, 'dt': 16, 'dx': 1, 'dy': 18, 'dl': 18} 242475 -20918
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 876, 'type': 'mousemove', 'ts': 221591, 'dt': 101, 'dx': -19, 'dy': -2, 'dl': 19} 242475 -20884
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 877, 'type': 'mousemove', 'ts': 221942, 'dt': 100, 'dx': -19, 'dy': -13, 'dl': 23} 242475 -20533
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 878, 'type': 'mousemove', 'ts': 222574, 'dt': 184, 'dx': -136, 'dy': 28, 'dl': 139} 242475 -19901
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 880, 'type': 'mousemove', 'ts': 222776, 'dt': 15, 'dx': -89, 'dy': 0, 'dl': 89} 242475 -19699
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 882, 'type': 'mousemove', 'ts': 229425, 'dt': 16, 'dx': 222, 'dy': 150, 'dl': 268} 242475 -13050
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 885, 'type': 'mousemove', 'ts': 229459, 'dt': 0, 'dx': 110, 'dy': 67, 'dl': 129} 242475 -13016
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 888, 'type': 'mousemove', 'ts': 229476, 'dt': 33, 'dx': 93, 'dy': 54, 'dl': 109} 242475 -12999
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 889, 'type': 'mousemove', 'ts': 229641, 'dt': 150, 'dx': 16, 'dy': -24, 'dl': 78} 242475 -12834
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 892, 'type': 'mousemove', 'ts': 229808, 'dt': 234, 'dx': -27, 'dy': -37, 'dl': 49} 242475 -12667
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 901, 'type': 'mousemove', 'ts': 232374, 'dt': 33, 'dx': -18, 'dy': 5, 'dl': 19} 242475 -10101
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 902, 'type': 'mousemove', 'ts': 232557, 'dt': 150, 'dx': -15, 'dy': 8, 'dl': 19} 242475 -9918
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 905, 'type': 'mousemove', 'ts': 233024, 'dt': 100, 'dx': 18, 'dy': 12, 'dl': 22} 242475 -9451
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 906, 'type': 'mousemove', 'ts': 233607, 'dt': 51, 'dx': -2, 'dy': -8, 'dl': 8} 242475 -8868
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 913, 'type': 'mousemove', 'ts': 235691, 'dt': 716, 'dx': -230, 'dy': -16, 'dl': 248} 242475 -6784
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 918, 'type': 'mousemove', 'ts': 237091, 'dt': 49, 'dx': -43, 'dy': 31, 'dl': 53} 242475 -5384
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 919, 'type': 'mousemove', 'ts': 237407, 'dt': 184, 'dx': 10, 'dy': -55, 'dl': 57} 242475 -5068
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 922, 'type': 'mousemove', 'ts': 237607, 'dt': 84, 'dx': 2, 'dy': -49, 'dl': 49} 242475 -4868
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 926, 'type': 'mousemove', 'ts': 238257, 'dt': 16, 'dx': 40, 'dy': -52, 'dl': 66} 242475 -4218
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 929, 'type': 'mousemove', 'ts': 238291, 'dt': 17, 'dx': 42, 'dy': -37, 'dl': 56} 242475 -4184
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 932, 'type': 'mousemove', 'ts': 238326, 'dt': 16, 'dx': 65, 'dy': -82, 'dl': 105} 242475 -4149
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 935, 'type': 'mousemove', 'ts': 238358, 'dt': 100, 'dx': 10, 'dy': -145, 'dl': 159} 242475 -4117
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 938, 'type': 'mousemove', 'ts': 238475, 'dt': 32, 'dx': -21, 'dy': -40, 'dl': 45} 242475 -4000
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 939, 'type': 'mousemove', 'ts': 238663, 'dt': 29, 'dx': 0, 'dy': -40, 'dl': 40} 242475 -3812
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 941, 'type': 'mousemove', 'ts': 238708, 'dt': 66, 'dx': -4, 'dy': -31, 'dl': 31} 242475 -3767
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 942, 'type': 'mousemove', 'ts': 239008, 'dt': 99, 'dx': 8, 'dy': -25, 'dl': 28} 242475 -3467
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 943, 'type': 'mousemove', 'ts': 239291, 'dt': 0, 'dx': 0, 'dy': 0, 'dl': 0} 242475 -3184
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 945, 'type': 'mousemove', 'ts': 239792, 'dt': 32, 'dx': -9, 'dy': 19, 'dl': 21} 242475 -2683
+ttp mousemove negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 947, 'type': 'mousemove', 'ts': 239842, 'dt': 32, 'dx': -22, 'dy': 36, 'dl': 43} 242475 -2633
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 672, 'type': 'mousemove', 'ts': 6689115, 'dt': 50, 'dx': -13, 'dy': 0, 'dl': 13} 6743907 -54792
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 675, 'type': 'mousemove', 'ts': 6689182, 'dt': 399, 'dx': -16, 'dy': -25, 'dl': 116} 6743907 -54725
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 679, 'type': 'mousemove', 'ts': 6692328, 'dt': 0, 'dx': 0, 'dy': 1, 'dl': 1} 6743907 -51579
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 682, 'type': 'mousemove', 'ts': 6692345, 'dt': 50, 'dx': 0, 'dy': 3, 'dl': 3} 6743907 -51562
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 695, 'type': 'mousemove', 'ts': 6698590, 'dt': 50, 'dx': 9, 'dy': -46, 'dl': 46} 6743907 -45317
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 698, 'type': 'mousemove', 'ts': 6698658, 'dt': 316, 'dx': 15, 'dy': -27, 'dl': 62} 6743907 -45249
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 699, 'type': 'mousemove', 'ts': 6699173, 'dt': 166, 'dx': 6, 'dy': 6, 'dl': 9} 6743907 -44734
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 700, 'type': 'mousemove', 'ts': 6700222, 'dt': 300, 'dx': -11, 'dy': -21, 'dl': 25} 6743907 -43685
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 701, 'type': 'mousemove', 'ts': 6700739, 'dt': 83, 'dx': -1, 'dy': 1, 'dl': 2} 6743907 -43168
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 702, 'type': 'mousemove', 'ts': 6701038, 'dt': 0, 'dx': 0, 'dy': -1, 'dl': 1} 6743907 -42869
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 703, 'type': 'mousemove', 'ts': 6701738, 'dt': 0, 'dx': 0, 'dy': 1, 'dl': 1} 6743907 -42169
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 704, 'type': 'mousemove', 'ts': 6701988, 'dt': 266, 'dx': 25, 'dy': -22, 'dl': 32} 6743907 -41919
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 705, 'type': 'mousemove', 'ts': 6702387, 'dt': 84, 'dx': 0, 'dy': 5, 'dl': 5} 6743907 -41520
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 745, 'type': 'mousemove', 'ts': 6716160, 'dt': 100, 'dx': 2, 'dy': 50, 'dl': 50} 6743907 -27747
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 746, 'type': 'mousemove', 'ts': 6716393, 'dt': 117, 'dx': 2, 'dy': -23, 'dl': 23} 6743907 -27514
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 751, 'type': 'mousemove', 'ts': 6717260, 'dt': 116, 'dx': 0, 'dy': -7, 'dl': 7} 6743907 -26647
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 788, 'type': 'mousemove', 'ts': 6725969, 'dt': 700, 'dx': -108, 'dy': 9, 'dl': 198} 6743907 -17938
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 789, 'type': 'mousemove', 'ts': 6726785, 'dt': 117, 'dx': -3, 'dy': -6, 'dl': 8} 6743907 -17122
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 796, 'type': 'mousemove', 'ts': 6728034, 'dt': 267, 'dx': 101, 'dy': -9, 'dl': 105} 6743907 -15873
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 797, 'type': 'mousemove', 'ts': 6728434, 'dt': 83, 'dx': -5, 'dy': 8, 'dl': 10} 6743907 -15473
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 804, 'type': 'mousemove', 'ts': 6729717, 'dt': 216, 'dx': -24, 'dy': 12, 'dl': 27} 6743907 -14190
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 839, 'type': 'mousemove', 'ts': 6737961, 'dt': 17, 'dx': -189, 'dy': -29, 'dl': 192} 6743907 -5946
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 842, 'type': 'mousemove', 'ts': 6737995, 'dt': 16, 'dx': -73, 'dy': -15, 'dl': 74} 6743907 -5912
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 844, 'type': 'mousemove', 'ts': 6738028, 'dt': 66, 'dx': -48, 'dy': -9, 'dl': 48} 6743907 -5879
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 845, 'type': 'mousemove', 'ts': 6738227, 'dt': 83, 'dx': 50, 'dy': 25, 'dl': 58} 6743907 -5680
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 847, 'type': 'mousemove', 'ts': 6738327, 'dt': 449, 'dx': 59, 'dy': 7, 'dl': 60} 6743907 -5580
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 855, 'type': 'mousemove', 'ts': 6740042, 'dt': 134, 'dx': 7, 'dy': -17, 'dl': 22} 6743907 -3865
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 858, 'type': 'mousemove', 'ts': 6740192, 'dt': 199, 'dx': 6, 'dy': -38, 'dl': 40} 6743907 -3715
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 862, 'type': 'mousemove', 'ts': 6741042, 'dt': 16, 'dx': 74, 'dy': 22, 'dl': 77} 6743907 -2865
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 865, 'type': 'mousemove', 'ts': 6741076, 'dt': 98, 'dx': 356, 'dy': 132, 'dl': 381} 6743907 -2831
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 868, 'type': 'mousemove', 'ts': 6742123, 'dt': 484, 'dx': -261, 'dy': -39, 'dl': 273} 6743907 -1784
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 870, 'type': 'mousemove', 'ts': 6743256, 'dt': 234, 'dx': 112, 'dy': -3, 'dl': 114} 6743907 -651
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 872, 'type': 'mousemove', 'ts': 6743541, 'dt': 281, 'dx': 118, 'dy': 18, 'dl': 225} 6743907 -366
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 875, 'type': 'mousemove', 'ts': 6743840, 'dt': 15, 'dx': 14, 'dy': 79, 'dl': 81} 6743907 -67
+ttp mousemove negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 878, 'type': 'mousemove', 'ts': 6743873, 'dt': 16, 'dx': 38, 'dy': 47, 'dl': 61} 6743907 -34
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 11, 'type': 'mousemove', 'ts': 144673, 'dt': 0, 'dx': -3, 'dy': 51, 'dl': 51} 174973 -30300
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 13, 'type': 'mousemove', 'ts': 144690, 'dt': 58, 'dx': -11, 'dy': 76, 'dl': 77} 174973 -30283
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 16, 'type': 'mousemove', 'ts': 144773, 'dt': 98, 'dx': -26, 'dy': 79, 'dl': 83} 174973 -30200
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 19, 'type': 'mousemove', 'ts': 144890, 'dt': 199, 'dx': -118, 'dy': 14, 'dl': 129} 174973 -30083
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 21, 'type': 'mousemove', 'ts': 145107, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 174973 -29866
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 23, 'type': 'mousemove', 'ts': 146622, 'dt': 16, 'dx': -2, 'dy': -50, 'dl': 50} 174973 -28351
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 25, 'type': 'mousemove', 'ts': 146655, 'dt': 0, 'dx': 3, 'dy': -50, 'dl': 50} 174973 -28318
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 28, 'type': 'mousemove', 'ts': 146674, 'dt': 15, 'dx': 3, 'dy': -82, 'dl': 82} 174973 -28299
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 30, 'type': 'mousemove', 'ts': 146706, 'dt': 16, 'dx': -15, 'dy': -147, 'dl': 148} 174973 -28267
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 33, 'type': 'mousemove', 'ts': 174821, 'dt': 18, 'dx': 9, 'dy': 67, 'dl': 68} 174973 -152
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 35, 'type': 'mousemove', 'ts': 174855, 'dt': 0, 'dx': 5, 'dy': 45, 'dl': 45} 174973 -118
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 38, 'type': 'mousemove', 'ts': 174873, 'dt': 49, 'dx': 4, 'dy': 108, 'dl': 108} 174973 -100
+ttp mousemove negatif !  :   HkvtID A19 - Conversion en entier (9) {'i': 41, 'type': 'mousemove', 'ts': 174939, 'dt': 16, 'dx': 2, 'dy': 49, 'dl': 49} 174973 -34
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 128, 'type': 'mousemove', 'ts': 155716, 'dt': 0, 'dx': -1, 'dy': 0, 'dl': 1} 180215 -24499
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 129, 'type': 'mousemove', 'ts': 157248, 'dt': 101, 'dx': -164, 'dy': 8, 'dl': 165} 180215 -22967
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 130, 'type': 'mousemove', 'ts': 157449, 'dt': 618, 'dx': -58, 'dy': 3, 'dl': 61} 180215 -22766
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 133, 'type': 'mousemove', 'ts': 158416, 'dt': 67, 'dx': 0, 'dy': 0, 'dl': 0} 180215 -21799
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 138, 'type': 'mousemove', 'ts': 159816, 'dt': 16, 'dx': -11, 'dy': 80, 'dl': 80} 180215 -20399
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 141, 'type': 'mousemove', 'ts': 159849, 'dt': 15, 'dx': 0, 'dy': 73, 'dl': 73} 180215 -20366
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 142, 'type': 'mousemove', 'ts': 160933, 'dt': 33, 'dx': 24, 'dy': 15, 'dl': 29} 180215 -19282
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 143, 'type': 'mousemove', 'ts': 161333, 'dt': 66, 'dx': -9, 'dy': -20, 'dl': 38} 180215 -18882
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 146, 'type': 'mousemove', 'ts': 161417, 'dt': 49, 'dx': -22, 'dy': -131, 'dl': 134} 180215 -18798
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 149, 'type': 'mousemove', 'ts': 161483, 'dt': 16, 'dx': -6, 'dy': -41, 'dl': 41} 180215 -18732
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 152, 'type': 'mousemove', 'ts': 161517, 'dt': 49, 'dx': -13, 'dy': -78, 'dl': 78} 180215 -18698
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 155, 'type': 'mousemove', 'ts': 161584, 'dt': 66, 'dx': -15, 'dy': -66, 'dl': 68} 180215 -18631
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 158, 'type': 'mousemove', 'ts': 161666, 'dt': 66, 'dx': -18, 'dy': -60, 'dl': 63} 180215 -18549
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 160, 'type': 'mousemove', 'ts': 161749, 'dt': 184, 'dx': 8, 'dy': -68, 'dl': 76} 180215 -18466
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 161, 'type': 'mousemove', 'ts': 162732, 'dt': 17, 'dx': 32, 'dy': 13, 'dl': 35} 180215 -17483
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 162, 'type': 'mousemove', 'ts': 163082, 'dt': 16, 'dx': 0, 'dy': 5, 'dl': 5} 180215 -17133
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 163, 'type': 'mousemove', 'ts': 163248, 'dt': 18, 'dx': 0, 'dy': 4, 'dl': 4} 180215 -16967
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 165, 'type': 'mousemove', 'ts': 163898, 'dt': 17, 'dx': -31, 'dy': 40, 'dl': 50} 180215 -16317
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 167, 'type': 'mousemove', 'ts': 163932, 'dt': 0, 'dx': -28, 'dy': 28, 'dl': 40} 180215 -16283
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 170, 'type': 'mousemove', 'ts': 163951, 'dt': 15, 'dx': -100, 'dy': 75, 'dl': 125} 180215 -16264
+ttp mousemove negatif !  :   HkvtID A19 - Reste de la division (8) {'i': 172, 'type': 'mousemove', 'ts': 163983, 'dt': 32, 'dx': -68, 'dy': 41, 'dl': 79} 180215 -16232
+ttp mousemove negatif !  :   PYDaQc H19 - Classe Table (170) {'i': 5923, 'type': 'mousemove', 'ts': 186895314, 'dt': 10, 'dx': 0, 'dy': 0, 'dl': 0} 186896386 -1072
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 276, 'type': 'mousedown', 'ts': 128477, 'cell': 8, 'btn': 0, 'x': 0.38, 'y': 8.75} 167712 -39235
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 279, 'type': 'mousedown', 'ts': 129348, 'cell': 8, 'btn': 0, 'x': 0, 'y': 0.1} 167712 -38364
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 298, 'type': 'mousedown', 'ts': 137802, 'cell': 8, 'btn': 0, 'x': 0.38, 'y': 22.19} 167712 -29910
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 317, 'type': 'mousedown', 'ts': 160663, 'cell': 8, 'btn': 0, 'x': 0.04, 'y': 0.55} 167712 -7049
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 322, 'type': 'mousedown', 'ts': 161482, 'cell': 8, 'btn': 0, 'x': 0.04, 'y': 0.55} 167712 -6230
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 325, 'type': 'mousedown', 'ts': 161698, 'cell': 8, 'btn': 0, 'x': 0.04, 'y': 0.55} 167712 -6014
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 328, 'type': 'mousedown', 'ts': 164822, 'cell': 8, 'btn': 0, 'x': 0.04, 'y': 0.55} 167712 -2890
+ttp mousedown negatif !  :   UntR21 A19 - Minuscules et majuscules (13) {'i': 331, 'type': 'mousedown', 'ts': 165016, 'cell': 8, 'btn': 0, 'x': 0.04, 'y': 0.55} 167712 -2696
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 707, 'type': 'mousedown', 'ts': 6702500, 'cell': 6, 'btn': 0, 'x': 0, 'y': 0} 6740438 -37938
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 747, 'type': 'mousedown', 'ts': 6716695, 'cell': 6, 'btn': 0, 'x': 0, 'y': 0} 6740438 -23743
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 749, 'type': 'mousedown', 'ts': 6716935, 'cell': 6, 'btn': 0, 'x': 0, 'y': 0} 6740438 -23503
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 752, 'type': 'mousedown', 'ts': 6717503, 'cell': 6, 'btn': 0, 'x': 0.16, 'y': 0.11} 6740438 -22935
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 790, 'type': 'mousedown', 'ts': 6726951, 'cell': 6, 'btn': 0, 'x': 0, 'y': 0.12} 6740438 -13487
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 798, 'type': 'mousedown', 'ts': 6728643, 'cell': 6, 'btn': 0, 'x': 0, 'y': 0} 6740438 -11795
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 805, 'type': 'mousedown', 'ts': 6730059, 'cell': 6, 'btn': 0, 'x': 0.12, 'y': 0.06} 6740438 -10379
+ttp mousedown negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 848, 'type': 'mousedown', 'ts': 6738777, 'cell': 6, 'btn': 0, 'x': 0.01, 'y': 0.09} 6740438 -1661
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 797, 'type': 'wheel', 'ts': 209175, 'dt': 0, 'dx': 0, 'dy': 100, 'dl': 100, 'md': 0} 242524 -33349
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 798, 'type': 'wheel', 'ts': 209425, 'dt': 250, 'dx': 0, 'dy': -500, 'dl': 500, 'md': 0} 242524 -33099
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 801, 'type': 'wheel', 'ts': 210241, 'dt': 67, 'dx': 0, 'dy': -200, 'dl': 200, 'md': 0} 242524 -32283
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 802, 'type': 'wheel', 'ts': 210459, 'dt': 0, 'dx': 0, 'dy': -100, 'dl': 100, 'md': 0} 242524 -32065
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 803, 'type': 'wheel', 'ts': 210708, 'dt': 0, 'dx': 0, 'dy': 100, 'dl': 100, 'md': 0} 242524 -31816
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 819, 'type': 'wheel', 'ts': 211825, 'dt': 0, 'dx': 0, 'dy': 100, 'dl': 100, 'md': 0} 242524 -30699
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 825, 'type': 'wheel', 'ts': 212192, 'dt': 0, 'dx': 0, 'dy': 100, 'dl': 100, 'md': 0} 242524 -30332
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 845, 'type': 'wheel', 'ts': 217091, 'dt': 117, 'dx': 0, 'dy': -400, 'dl': 400, 'md': 0} 242524 -25433
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 875, 'type': 'wheel', 'ts': 221591, 'dt': 0, 'dx': 0, 'dy': 100, 'dl': 100, 'md': 0} 242524 -20933
+ttp wheel negatif !  :   HkvtID A19 - Minuscules et majuscules (13) {'i': 923, 'type': 'wheel', 'ts': 237791, 'dt': 150, 'dx': 0, 'dy': -500, 'dl': 500, 'md': 0} 242524 -4733
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 665, 'type': 'wheel', 'ts': 6686976, 'dt': 131, 'dx': -0.125, 'dy': 2.625, 'dl': 0, 'md': 1} 6744449 -57473
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 666, 'type': 'wheel', 'ts': 6687663, 'dt': 122, 'dx': -0.125, 'dy': 4.958333333333335, 'dl': 4, 'md': 1} 6744449 -56786
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 669, 'type': 'wheel', 'ts': 6688419, 'dt': 232, 'dx': -0.5, 'dy': 9.624999999999998, 'dl': 8, 'md': 1} 6744449 -56030
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 676, 'type': 'wheel', 'ts': 6689776, 'dt': 71, 'dx': 0, 'dy': -3.208333333333333, 'dl': 3, 'md': 1} 6744449 -54673
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 683, 'type': 'wheel', 'ts': 6693042, 'dt': 56, 'dx': 0, 'dy': 1.1666666666666667, 'dl': 0, 'md': 1} 6744449 -51407
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 684, 'type': 'wheel', 'ts': 6694118, 'dt': 135, 'dx': 0, 'dy': 7.000000000000001, 'dl': 6, 'md': 1} 6744449 -50331
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 687, 'type': 'wheel', 'ts': 6694901, 'dt': 129, 'dx': 0.125, 'dy': -6.416666666666668, 'dl': 5, 'md': 1} 6744449 -49548
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 688, 'type': 'wheel', 'ts': 6695219, 'dt': 387, 'dx': 0, 'dy': -15.749999999999991, 'dl': 12, 'md': 1} 6744449 -49230
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 691, 'type': 'wheel', 'ts': 6696926, 'dt': 86, 'dx': 0, 'dy': -2.041666666666667, 'dl': 0, 'md': 1} 6744449 -47523
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 692, 'type': 'wheel', 'ts': 6697950, 'dt': 162, 'dx': 0, 'dy': 22.750000000000007, 'dl': 21, 'md': 1} 6744449 -46499
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 821, 'type': 'wheel', 'ts': 6734428, 'dt': 357, 'dx': -0.125, 'dy': -24.79166666666668, 'dl': 23, 'md': 1} 6744449 -10021
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 824, 'type': 'wheel', 'ts': 6735236, 'dt': 0, 'dx': 0, 'dy': 0.2916666666666667, 'dl': 0, 'md': 1} 6744449 -9213
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 825, 'type': 'wheel', 'ts': 6735527, 'dt': 208, 'dx': 0, 'dy': 23.625000000000004, 'dl': 23, 'md': 1} 6744449 -8922
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 826, 'type': 'wheel', 'ts': 6735897, 'dt': 0, 'dx': -0.125, 'dy': 0, 'dl': 0, 'md': 1} 6744449 -8552
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 852, 'type': 'wheel', 'ts': 6739254, 'dt': 290, 'dx': -0.125, 'dy': -22.458333333333357, 'dl': 18, 'md': 1} 6744449 -5195
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 866, 'type': 'wheel', 'ts': 6741408, 'dt': 391, 'dx': 0, 'dy': -23.625, 'dl': 39, 'md': 1} 6744449 -3041
+ttp wheel negatif !  :   auvcqi A19 - Minimum d'une liste de nombres (41) {'i': 882, 'type': 'wheel', 'ts': 6744128, 'dt': 305, 'dx': 0, 'dy': 37.800000000000004, 'dl': 37, 'md': 1} 6744449 -321
+Titres des notebooks                     Nombre de sessions
+A17 - Affectation simple d'un booléen (28)________ : 1
+A17 - Autre usage de print (2)____________________ : 1
+A17 - Lecture d'un fichier (114)__________________ : 2
+A17 - Usage de print (1)__________________________ : 1
+A18 - Compter les occurences dans une liste (53)__ : 1
+A18 - Convertir en radians (68)___________________ : 1
+A18 - Découpage d'une sous liste (2) (26)_________ : 1
+A18 - Fonction avec argument doublement étoilé (60) : 1
+A18 - Fonction génératrice simple (62)____________ : 1
+A18 - Fonction input (6)__________________________ : 1
+A18 - Fonction split (16)_________________________ : 1
+A18 - Formatage d'une chaîne (126)________________ : 1
+A18 - Insertion d'un élément dans une liste (23)__ : 1
+A18 - Minimum d'une liste de nombres (41)_________ : 2
+A18 - Minimum de trois valeurs (36)_______________ : 2
+A18 - Planifier une réunion (54)__________________ : 1
+A18 - Valeur absolue (37)_________________________ : 1
+A19 - Addition + affectation (4)__________________ : 607
+A19 - Affectation d'une chaîne (11)_______________ : 230
+A19 - Affectation d'une expression (30)___________ : 65
+A19 - Affectation d'une valeur de retour (57)_____ : 6
+A19 - Affectation des éléments d'une liste (56)___ : 7
+A19 - Affectation simple (3)______________________ : 642
+A19 - Affectation simple d'un booléen (28)________ : 76
+A19 - Ajout d'un élément dans une liste (22)______ : 155
+A19 - Année bissextile (105)______________________ : 2
+A19 - Assemblage d'une phrase (67)________________ : 146
+A19 - Autre usage de print (2)____________________ : 791
+A19 - Calcul d'une expression (5)_________________ : 597
+A19 - Calcul d'une norme (10)_____________________ : 293
+A19 - Calcul d'une puissance (7)__________________ : 316
+A19 - Chaîne foldingo (50)________________________ : 6
+A19 - Classe Fraction (80)________________________ : 2
+A19 - Classe Point (63)___________________________ : 5
+A19 - Classe Table (70)___________________________ : 16
+A19 - Classe TicTacToe (75)_______________________ : 6
+A19 - Classe et opérateur [ ] (69)________________ : 8
+A19 - Compte des nombres positifs d'une liste (42) : 24
+A19 - Compter les occurences dans une liste (53)__ : 12
+A19 - Concaténation de deux chaînes (12)__________ : 235
+A19 - Concaténation de deux listes (21)___________ : 140
+A19 - Concaténation de deux sous-listes (27)______ : 155
+A19 - Construction d'un ensemble (55)_____________ : 10
+A19 - Conversion d'itérable en tuple (47)_________ : 6
+A19 - Conversion en entier (9)____________________ : 310
+A19 - Convertir en radians (68)___________________ : 66
+A19 - Coût d'un panier d'épicerie (49)____________ : 15
+A19 - Création d'une grille (74)__________________ : 3
+A19 - Création d'une liste (19)___________________ : 129
+A19 - Distance parcourue (51)_____________________ : 7
+A19 - Découpage d'un tuple (48)___________________ : 7
+A19 - Découpage d'une sous liste (2) (26)_________ : 163
+A19 - Découpage d'une sous-liste (25)_____________ : 159
+A19 - Expression booléenne (29)___________________ : 91
+A19 - Fonction avec argument doublement étoilé (60) : 9
+A19 - Fonction avec argument positionnel (58)_____ : 7
+A19 - Fonction avec argument étoilé (59)__________ : 5
+A19 - Fonction génératrice simple (62)____________ : 12
+A19 - Fonction input (6)__________________________ : 592
+A19 - Fonction minmax (46)________________________ : 6
+A19 - Fonction replace (14)_______________________ : 207
+A19 - Fonction split (16)_________________________ : 184
+A19 - Fonction strip (15)_________________________ : 210
+A19 - Formatage d'une chaîne (126)________________ : 311
+A19 - Graphique d'un sinus (117)__________________ : 1
+A19 - Grille de jeu m x n (102)___________________ : 3
+A19 - Héritage simple (76)________________________ : 5
+A19 - Insertion d'un élément dans une liste (23)__ : 174
+A19 - Le lièvre et la tortue (81)_________________ : 1
+A19 - Lecture d'un fichier (114)__________________ : 7
+A19 - Liste vide (18)_____________________________ : 143
+A19 - Liste à partir d'une chaîne (20)____________ : 135
+A19 - Maximum des valeurs absolues (38)___________ : 55
+A19 - Minimum d'une liste de nombres (41)_________ : 29
+A19 - Minimum de trois valeurs (36)_______________ : 148
+A19 - Minuscules et majuscules (13)_______________ : 236
+A19 - Patron -+-+-+- (64)_________________________ : 2
+A19 - Patron d'étoiles (39)_______________________ : 61
+A19 - Patron de chiffres (40)_____________________ : 90
+A19 - Patron x | y | z (65)_______________________ : 7
+A19 - Planifier une réunion (54)__________________ : 13
+A19 - Position sur la circonférence d'un cercle (43) : 8
+A19 - Périmètre d'un cercle (33)__________________ : 50
+A19 - Périmètre d'un rectangle (31)_______________ : 59
+A19 - Reste de la division (8)____________________ : 304
+A19 - Résolution d'un système d'équations linéaires (94) : 2
+A19 - Soirée cinéma (44)__________________________ : 21
+A19 - Surface d'un rectangle (32)_________________ : 53
+A19 - Tri d'une liste (24)________________________ : 149
+A19 - Un cas parmi quatre (35)____________________ : 64
+A19 - Usage de print (1)__________________________ : 1162
+A19 - Valeur absolue (37)_________________________ : 87
+A19 - Valeur d'un investissement (45)_____________ : 11
+A19 - Valeur d'une liste de chaînes (52)__________ : 7
+A19 - Volume d'un prisme rectangulaire (66)_______ : 774
+A19 - Volume d'une sphère (34)____________________ : 47
+H17 - Affectation simple (3)______________________ : 2
+H17 - Usage de print (1)__________________________ : 2
+H18 - Affichage d'un losange (121)________________ : 1
+H18 - Classe Cadenas (122)________________________ : 1
+H18 - Réponse d'un circuit RC (125)_______________ : 1
+H18 - Volume d'un prisme rectangulaire (66)_______ : 1
+H19 - Addition + affectation (4)__________________ : 11
+H19 - Affectation d'une chaîne (11)_______________ : 4
+H19 - Affectation d'une expression (30)___________ : 2
+H19 - Affectation d'une valeur de retour (57)_____ : 2
+H19 - Affectation des éléments d'une liste (56)___ : 2
+H19 - Affectation simple (3)______________________ : 15
+H19 - Affectation simple d'un booléen (28)________ : 2
+H19 - Affichage d'un histogramme (79)_____________ : 2
+H19 - Affichage d'un losange (121)________________ : 2
+H19 - Ajout d'un élément dans une liste (22)______ : 9
+H19 - Année bissextile (105)______________________ : 3
+H19 - Assemblage d'une phrase (67)________________ : 3
+H19 - Autre usage de print (2)____________________ : 15
+H19 - Calcul d'une expression (5)_________________ : 17
+H19 - Calcul d'une norme (10)_____________________ : 5
+H19 - Calcul d'une puissance (7)__________________ : 9
+H19 - Calcul récursif d'une puissance (88)________ : 2
+H19 - Chaîne foldingo (50)________________________ : 3
+H19 - Choix multiples (91)________________________ : 2
+H19 - Classe Cadenas (122)________________________ : 1
+H19 - Classe Table (170)__________________________ : 17
+H19 - Classe Table (70)___________________________ : 2
+H19 - Classe TicTacToe (175)______________________ : 10
+H19 - Classe TicTacToe (75)_______________________ : 2
+H19 - Compte des nombres positifs d'une liste (42) : 1
+H19 - Compter les mots (106)______________________ : 3
+H19 - Compter les occurences dans une liste (53)__ : 2
+H19 - Concaténation de deux chaînes (12)__________ : 5
+H19 - Concaténation de deux listes (21)___________ : 5
+H19 - Concaténation de deux sous-listes (27)______ : 4
+H19 - Construction d'un ensemble (55)_____________ : 2
+H19 - Conversion d'itérable en tuple (47)_________ : 2
+H19 - Conversion d'un nombre binaire (103)________ : 3
+H19 - Conversion en entier (9)____________________ : 6
+H19 - Convertir en radians (68)___________________ : 2
+H19 - Coût d'un panier d'épicerie (49)____________ : 1
+H19 - Création d'une classe d'exception (109)_____ : 9
+H19 - Création d'une grille (174)_________________ : 9
+H19 - Création d'une grille (74)__________________ : 2
+H19 - Création d'une liste (19)___________________ : 6
+H19 - Distance parcourue (51)_____________________ : 3
+H19 - Découpage d'un tuple (48)___________________ : 2
+H19 - Découpage d'une chaîne (17)_________________ : 2
+H19 - Découpage d'une sous liste (2) (26)_________ : 4
+H19 - Découpage d'une sous-liste (25)_____________ : 6
+H19 - Exception mystérieuse (71)__________________ : 1
+H19 - Expression booléenne (29)___________________ : 2
+H19 - Filtre anti-marques (100)___________________ : 2
+H19 - Fonction avec argument doublement étoilé (60) : 2
+H19 - Fonction avec argument obligatoirement nommé (61) : 2
+H19 - Fonction avec argument positionnel (58)_____ : 2
+H19 - Fonction avec argument étoilé (59)__________ : 4
+H19 - Fonction génératrice simple (62)____________ : 2
+H19 - Fonction input (6)__________________________ : 16
+H19 - Fonction minmax (46)________________________ : 2
+H19 - Fonction replace (14)_______________________ : 4
+H19 - Fonction split (16)_________________________ : 4
+H19 - Fonction strip (15)_________________________ : 4
+H19 - Formatage d'une chaîne (126)________________ : 7
+H19 - Graphique d'un sinus (117)__________________ : 1
+H19 - Grille de jeu m x n (102)___________________ : 4
+H19 - Hiérarchie de formes (101)__________________ : 2
+H19 - Insertion d'un élément dans une liste (23)__ : 5
+H19 - Lecture d'un fichier (114)__________________ : 2
+H19 - Liste vide (18)_____________________________ : 7
+H19 - Liste à partir d'une chaîne (20)____________ : 5
+H19 - Maximum des valeurs absolues (38)___________ : 6
+H19 - Minimum d'une liste de nombres (41)_________ : 6
+H19 - Minimum de trois valeurs (36)_______________ : 8
+H19 - Minuscules et majuscules (13)_______________ : 4
+H19 - Palindrome (98)_____________________________ : 2
+H19 - Patron +---+ (77)___________________________ : 1
+H19 - Patron -+-+-+- (64)_________________________ : 2
+H19 - Patron 0-10-20 (78)_________________________ : 2
+H19 - Patron d'étoiles (39)_______________________ : 3
+H19 - Patron de chiffres (40)_____________________ : 3
+H19 - Patron x | y | z (65)_______________________ : 2
+H19 - Planifier une réunion (54)__________________ : 2
+H19 - Position sur la circonférence d'un cercle (43) : 2
+H19 - Périmètre d'un cercle (33)__________________ : 2
+H19 - Périmètre d'un rectangle (31)_______________ : 2
+H19 - Question à choix multiple (124)_____________ : 2
+H19 - Reste de la division (8)____________________ : 5
+H19 - Réponse d'un circuit RC (125)_______________ : 2
+H19 - Sapin de Noël (97)__________________________ : 2
+H19 - Soirée cinéma (44)__________________________ : 3
+H19 - Somme récursive (99)________________________ : 2
+H19 - Statistiques de base (123)__________________ : 2
+H19 - Surface d'un rectangle (32)_________________ : 2
+H19 - Traduction en code morse (104)______________ : 3
+H19 - Tri d'une liste (24)________________________ : 5
+H19 - Un cas parmi quatre (35)____________________ : 4
+H19 - Usage de print (1)__________________________ : 25
+H19 - Valeur absolue (37)_________________________ : 8
+H19 - Valeur d'un investissement (45)_____________ : 3
+H19 - Valeur d'une liste de chaînes (52)__________ : 2
+H19 - Volume d'un prisme rectangulaire (66)_______ : 20
+H19 - Volume d'une sphère (34)____________________ : 2
+
+
+
+Type des notebooks   Nombre de sessions
+exercise______________________ : 10203
+quiz__________________________ : 1224
+
+
+
+Type de navigateur   Nombre de sessions
+desktop_______________________ : 11427
+
+
+
+User_Id  Nombre de sessions
+0JFhKz____ : 29
+0Jw0xZ____ : 15
+0QCMdg____ : 34
+0ZIVx8____ : 5
+0tiqKg____ : 3
+1LrRsh____ : 34
+1PBpJE____ : 10
+1aRHFA____ : 67
+1eL1l9____ : 35
+1oBvE7____ : 65
+21BYYQ____ : 11
+28FHuU____ : 60
+2eXUVd____ : 17
+2lhlSR____ : 17
+2sZ8iD____ : 14
+30S5QQ____ : 12
+30yia4____ : 67
+32DGFW____ : 41
+34uuEB____ : 39
+3IhLkM____ : 54
+3LO6x0____ : 17
+3RLQbF____ : 35
+3gfqve____ : 11
+3vu8Xe____ : 11
+3x364U____ : 8
+40RcBt____ : 63
+44KrYv____ : 12
+4BLVVQ____ : 25
+4Dvn7J____ : 37
+4K6Pdc____ : 70
+4MOALp____ : 17
+4RtgnM____ : 10
+4UxoJh____ : 10
+4akxM0____ : 29
+4dmmxs____ : 36
+51Amc8____ : 1
+5ReCrz____ : 1
+5aShzz____ : 12
+5c8BGA____ : 8
+5ueayO____ : 31
+5zDZHT____ : 56
+62EqYl____ : 51
+6SMZ3h____ : 65
+6fC9WK____ : 29
+70jIIf____ : 42
+7RsBHV____ : 43
+7Trpmr____ : 85
+7a5AIa____ : 72
+7e7y4u____ : 9
+8KzIBy____ : 56
+8ULUVD____ : 128
+8kRRC4____ : 11
+8r16sL____ : 129
+9Jn023____ : 11
+9USytw____ : 10
+9zVaAM____ : 26
+Aif4IB____ : 62
+AsQ9Lr____ : 42
+B4tl5U____ : 90
+BQPbVi____ : 13
+BQagVG____ : 14
+BerkkE____ : 6
+Blwcww____ : 35
+CBsVC5____ : 8
+CFdiA0____ : 106
+CSI2wM____ : 9
+CYjCJw____ : 67
+Cjde3E____ : 23
+Cn3EjH____ : 43
+CymNfq____ : 65
+DBiHPK____ : 49
+DN7bkU____ : 46
+DSoIMr____ : 10
+DU7obg____ : 196
+DxoPEm____ : 22
+E5GKuS____ : 106
+EPOi1S____ : 9
+EZTSiq____ : 25
+EpYs08____ : 20
+EzUKrt____ : 4
+GC1wnU____ : 27
+GIcymM____ : 8
+GMVhOz____ : 38
+GYVxUP____ : 43
+H66jhA____ : 97
+HJfTnQ____ : 7
+HTjYtB____ : 18
+HclOQP____ : 16
+HkvtID____ : 132
+HmyRyp____ : 26
+I9gqRr____ : 34
+IC3XWd____ : 8
+ILRLvQ____ : 86
+IbVNr8____ : 27
+ItqSjX____ : 26
+J538S1____ : 49
+JESEHu____ : 5
+JEqOwr____ : 10
+JFP7PL____ : 18
+JPd0Mq____ : 29
+JYZN2l____ : 14
+Jbu5xA____ : 11
+K3h3lA____ : 12
+K4Aca9____ : 104
+KI6EMo____ : 27
+KzvpLV____ : 6
+LoRxzB____ : 48
+Ls9JQr____ : 15
+LuqiB2____ : 57
+M7BaKv____ : 61
+MKPwPw____ : 32
+MYMKH7____ : 7
+MjuZl4____ : 19
+Muh3mc____ : 51
+MxHjVn____ : 48
+N3cCF6____ : 12
+N7DUT4____ : 36
+N7Et8i____ : 27
+NBwKBs____ : 11
+NDYs4r____ : 10
+NlauDS____ : 29
+NtlOcJ____ : 28
+O1oKlD____ : 17
+O98kje____ : 14
+ODA5xQ____ : 12
+OVr4UA____ : 15
+OZPmHp____ : 36
+Oepvjw____ : 26
+OhzG3t____ : 63
+PG5bv1____ : 29
+PYDaQc____ : 38
+PlJxqX____ : 15
+Q6WULx____ : 49
+QQNae0____ : 124
+Qbvhcy____ : 12
+QfHORi____ : 32
+R1fR7P____ : 51
+R6UkfS____ : 4
+RJAeSy____ : 41
+RZFgbE____ : 142
+RmqJdX____ : 26
+RxfaP9____ : 16
+SI5qC6____ : 50
+SLZxQI____ : 2
+SQyqO9____ : 19
+Sc0VW3____ : 25
+Sl8Fub____ : 33
+Sriywm____ : 21
+SxrxQe____ : 21
+T6Zapa____ : 35
+TUam0z____ : 12
+TWce7f____ : 45
+ThVFTD____ : 11
+TjtAJi____ : 4
+TlVsks____ : 28
+Tu6dK0____ : 21
+U9olDG____ : 38
+UHJWjx____ : 15
+UO5KCM____ : 47
+Un0cgq____ : 15
+UntR21____ : 28
+VFiYHV____ : 9
+VP0538____ : 65
+VjyqgQ____ : 52
+VzuTQm____ : 2
+W2l6bO____ : 7
+WT20CH____ : 50
+X6Xgjl____ : 19
+X8Zlgm____ : 2
+XAW4a4____ : 7
+XE71bG____ : 70
+XOfXYh____ : 6
+XRJvkc____ : 79
+XUldo9____ : 29
+XpXrL8____ : 36
+YEhGsC____ : 1
+YZGf7E____ : 34
+YaYH0b____ : 15
+YiWQ0X____ : 2
+YyMSPP____ : 27
+ZQ4T7v____ : 44
+ZSFnO6____ : 106
+ZVruOF____ : 8
+ZefpEF____ : 9
+ZyeirY____ : 13
+aNjFl0____ : 54
+aTDWXz____ : 22
+aboNbY____ : 21
+ai0lXw____ : 42
+aji9J0____ : 36
+aoiBYt____ : 12
+au2qQv____ : 42
+auvcqi____ : 208
+b20lPf____ : 77
+b47aej____ : 81
+bSW8GK____ : 73
+bdiJr1____ : 28
+bfVvl0____ : 29
+biNy12____ : 42
+c5UKA5____ : 14
+c6BP7Q____ : 75
+cEhret____ : 9
+ce9Vpz____ : 93
+coJ8a2____ : 25
+czwUn3____ : 7
+d0v7kN____ : 31
+dLgRrz____ : 20
+dnmC3j____ : 34
+e1IkHk____ : 33
+eUiYvK____ : 11
+ee0h2Q____ : 86
+egUG40____ : 80
+elV0UF____ : 12
+emgq4x____ : 59
+eqi4qO____ : 10
+etPgJI____ : 14
+ev0uHr____ : 50
+fJp5Hs____ : 32
+fTUYzD____ : 56
+fhRxaY____ : 20
+gOJSZk____ : 9
+gniOW3____ : 15
+guGcO2____ : 20
+hIp7vD____ : 14
+hKPlA9____ : 17
+hQ7eLV____ : 16
+hR3N6k____ : 1
+hpTkqS____ : 23
+hv4Pn2____ : 50
+iH1Uui____ : 12
+iJXBEx____ : 23
+iLzbO7____ : 28
+iwgWPW____ : 10
+j18l2z____ : 1
+jDBaLU____ : 6
+jK4KUG____ : 14
+jSHrdG____ : 16
+jbhGji____ : 23
+jebysF____ : 40
+jiAhm3____ : 63
+jiMpAf____ : 51
+jlUY0L____ : 53
+jq31FJ____ : 13
+jxzuAb____ : 20
+kYrV06____ : 27
+kjBSzq____ : 55
+ko2bQt____ : 163
+kqAvsD____ : 42
+ktsN0r____ : 33
+l2dE32____ : 3
+l7ta7z____ : 10
+lAWusn____ : 1
+lEJ49k____ : 12
+m2lJhW____ : 18
+mI9986____ : 59
+mRkobF____ : 49
+mZHqjc____ : 5
+mZqtiV____ : 94
+mbavl6____ : 17
+mw0goH____ : 16
+n8kajO____ : 11
+nHF9ob____ : 18
+nMF0Y8____ : 9
+ns3TNI____ : 67
+nuhpbf____ : 24
+nzcIqM____ : 12
+o4ftgo____ : 61
+oJXjTN____ : 70
+oMH1Je____ : 39
+obLZN9____ : 21
+pCX7wa____ : 25
+pEWtDH____ : 56
+pFhiCs____ : 60
+pOcq9V____ : 31
+pRkWaN____ : 2
+pn3imu____ : 26
+pnz4eU____ : 38
+prDJc2____ : 22
+puUmGc____ : 37
+puWOx3____ : 7
+qRLjqA____ : 16
+qp1csa____ : 25
+qpvJfJ____ : 38
+r2RQPh____ : 80
+rGJO4Q____ : 162
+rNQdWF____ : 33
+rgqvBv____ : 57
+rw2w9l____ : 57
+s95hrN____ : 14
+sJJvsp____ : 59
+sQGwRH____ : 5
+sqrLFe____ : 59
+svGk6i____ : 26
+tG0Qhb____ : 72
+tJ8yvz____ : 20
+thwEdK____ : 22
+tuFwoS____ : 66
+tvrG7Z____ : 40
+u4smTD____ : 9
+uArBfH____ : 11
+ugpn6z____ : 7
+utBrXn____ : 24
+vAADq5____ : 39
+vJizXA____ : 25
+vQEMFu____ : 73
+vfGdKC____ : 8
+vgaxU4____ : 1
+w4AeLv____ : 18
+w8cmqI____ : 10
+wDf935____ : 35
+wFoZYU____ : 66
+wOBOsc____ : 4
+wQDJfa____ : 21
+wVur9l____ : 9
+wZiaII____ : 7
+wcsQTs____ : 34
+wgdytG____ : 24
+wicaAC____ : 12
+wind7g____ : 26
+wlS3lG____ : 69
+wmDzWt____ : 19
+wsyQQu____ : 1
+wxTym6____ : 190
+x0cGv1____ : 40
+x4vLhO____ : 30
+x5PJfa____ : 11
+xZcurS____ : 35
+yG98Sc____ : 12
+yGwRMM____ : 2
+ywQ9tO____ : 16
+ywsTxF____ : 12
+z8x1r5____ : 21
+zMljBY____ : 14
+zOPhD1____ : 28
+zPOLOT____ : 16
+zpKDXi____ : 22
+
+
+
+load________________ : 8177 |  9072 : ______________unload
+hidden______________ : 15649 |  10225 : _____________visible
+focusin_____________ : 34416 |  33150 : ____________focusout
+mousedown___________ : 82832 |  82384 : _____________mouseup
+mouseenter__________ : 356100 |  353904 : __________mouseleave
+keydown_____________ : 551321 |  445169 : _______________keyup
+
+
+mousemove___ : 854236
+wheel_______ : 100946
+click_______ : 32783
+paste_______ : 3052
+copy________ : 2624
+cut_________ : 167
+
+
+Temps passe sur les notebooks
+ Median :__ 0:02:30.935000
+ Mean :____ 0:19:42.759638
+ Maxi :____ 5 days, 2:12:59.650000
+ Mini :____ 0:00:00.139000
+ std :_____ 2:54:15.363932
+ Sum :_____ 74 days, 5:02:19.998000
+
+
+ Nombre de submit____ : 8149
+ Nombre de execute___ : 1515
+ Nombre de visualize_ : 41
+ Nombre de save______ : 478
+ Nombre de metrics___ : 54
+ Nombre de renew_____ : 68
+ Nombre de restart___ : 127
+
+
+ Temps moyen entre deux click :__________ 0:00:46.150508
+ Temps median entre deux click :_________ 0:00:10.897000
+ Temps max entre deux click :____________ 14:17:58.170000
+ Temps min entre deux click :____________ 0:00:00
+ Variance temps entre deux click :_______ 0:06:48.865604
+
+
+ Nombre de focus cellule  6  : 21398
+ Nombre de focus cellule  8  : 12995
+ Nombre de focus cellule  3  : 12
+ Nombre de focus cellule  10 : 4
+ Nombre de focus cellule  7  : 7
+
+
+ Temps moyen entre deux focus :__________ 0:00:49.053694
+ Temps median entre deux focus :_________ 0:00:16.851500
+ Temps max entre deux focus :____________ 21:11:13.482000
+ Temps min entre deux focus :____________ 0:00:00
+ Variance temps entre deux focus :_______ 0:09:59.656640
+
+
+ distance moyenne wheel :________________ 153.99
+ temps moyen wheel :_____________________ 0.12
+ vitesse moyenne wheel :_________________ 1292.03
+
+
+ Nombre de wheel type 0 : 88016
+ Nombre de wheel type 1 : 12930
+
+
+ Temps moyen entre deux wheel :__________ 0:00:23.193361
+ Temps median entre deux wheel :_________ 0:00:00.801000
+ Temps max entre deux wheel :____________ 1 day, 18:10:27.475000
+ Temps min entre deux wheel :____________ 0:00:00
+ variance temps entre deux wheel :_______ 0:15:02.332574
+
+
+ Temps moyen d un hidden :_______________ 0:06:04.736703
+ Temps median d un hidden :______________ 0:00:16.806500
+ Temps max d un hidden :_________________ 4 days, 23:04:37.373000
+ Temps min d un hidden :_________________ 0:00:00.001000
+ Variance temps d un hidden :____________ 1:37:41.813541
+
+
+ Nombre de clicks cell 0  : 118  |  [('d', 118), ('g', 106)] |  x_moy, y_moy : [0.65 1.09]
+ Nombre de clicks cell 1  : 3620 |  [('d', 3620), ('g', 3453)] |  x_moy, y_moy : [0.8  1.22]
+ Nombre de clicks cell 2  : 128  |  [('d', 128), ('g', 124)] |  x_moy, y_moy : [0.71 0.89]
+ Nombre de clicks cell 3  : 2222 |  [('d', 2222), ('g', 2208)] |  x_moy, y_moy : [0.26 0.8 ]
+ Nombre de clicks cell 4  : 1020 |  [('d', 1020), ('g', 955)] |  x_moy, y_moy : [0.67 1.17]
+ Nombre de clicks cell 5  : 505  |  [('d', 505), ('g', 489)] |  x_moy, y_moy : [0.97 0.8 ]
+ Nombre de clicks cell 6  : 44848 |  [('d', 44848), ('g', 44680)] |  x_moy, y_moy : [0.44 4.39]
+ Nombre de clicks cell 7  : 666  |  [('d', 666), ('g', 652)] |  x_moy, y_moy : [1.12 1.38]
+ Nombre de clicks cell 8  : 29486 |  [('d', 29486), ('g', 29320)] |  x_moy, y_moy : [0.31 4.17]
+ Nombre de clicks cell 9  : 34   |  [('d', 34), ('g', 33)] |  x_moy, y_moy : [0.27 0.53]
+ Nombre de clicks cell 10 : 185  |  [('d', 185), ('g', 182)] |  x_moy, y_moy : [0.26 0.97]
+
+
+ Temps moyen entre deux mousedown :______ 0:00:21.548184
+ Temps median entre deux mousedown :_____ 0:00:04.156000
+ Temps max entre deux mousedown :________ 21:11:13.520000
+ Temps min entre deux mousedown :________ 0:00:00
+ Variance temps entre deux mousedown :___ 0:06:55.589343
+
+
+ Nombre de paste cell 6_________ : 821
+ Nombre de paste cell 8_________ : 1092
+ Nombre de paste cell 1_________ : 601
+ Nombre de paste cell 4_________ : 93
+ Nombre de paste cell 2_________ : 3
+ Nombre de paste cell 5_________ : 8
+ Nombre de paste cell 0_________ : 3
+ Nombre de paste cell 7_________ : 1
+ Nombre de paste cell 9_________ : 2
+ Nombre de paste cell 6_________ : 96
+ Nombre de paste cell 8_________ : 67
+ Nombre de paste cell 1_________ : 4
+ Nombre de paste cell 8_________ : 1127
+ Nombre de paste cell 6_________ : 1913
+ Nombre de paste cell 7_________ : 3
+ Nombre de paste cell 1_________ : 7
+ Nombre de paste cell 5_________ : 1
+ Nombre de paste cell 3_________ : 1
+
+
+ Temps moyen entre deux copy :___________ 0:03:03.045362
+ Temps moyen entre deux cut :____________ 0:06:23.673635
+ Temps moyen entre deux paste :__________ 0:02:48.033254
+ variance temps entre deux paste :_______ 0:10:07.025142
+
+
+ distance moyenne move :_________________ 90.44
+ temps moyen move :______________________ 0.15
+ vitesse moyenne move :__________________ 611.26
+
+
+ Temps moyen entre deux move :___________ 0:00:05.282306
+ Temps median entre deux move :__________ 0:00:00.274000
+ Temps max entre deux move :_____________ 2 days, 22:17:10.303000
+ Temps min entre deux move :_____________ 0:00:00
+ Variance temps entre deux move :________ 0:09:13.355411
+
+
+nombre enter cellule 0  : 33631 |   x_moy y_moy  [0.24 0.37]
+nombre enter cellule 1  : 45397 |   x_moy y_moy  [0.25 0.37]
+nombre enter cellule 2  : 24549 |   x_moy y_moy  [0.28 0.34]
+nombre enter cellule 3  : 26281 |   x_moy y_moy  [0.24 0.32]
+nombre enter cellule 4  : 23267 |   x_moy y_moy  [0.23 0.36]
+nombre enter cellule 5  : 59005 |   x_moy y_moy  [0.24 0.4 ]
+nombre enter cellule 6  : 59642 |   x_moy y_moy  [0.23 0.36]
+nombre enter cellule 7  : 51045 |   x_moy y_moy  [0.23 0.34]
+nombre enter cellule 8  : 32039 |   x_moy y_moy  [0.23 0.27]
+nombre enter cellule 9  : 720  |   x_moy y_moy  [0.25 0.32]
+nombre enter cellule 10 : 524  |   x_moy y_moy  [0.28 0.28]
+
+
+ Temps moyen entre deux enter :__________ 0:00:09.066929
+ Temps median entre deux enter :_________ 0:00:00.338000
+ Temps max entre deux enter :____________ 1 day, 15:30:37.987000
+ Temps min entre deux enter :____________ 0:00:00
+ Variance temps entre deux enter :_______ 0:08:37.707871
+
+

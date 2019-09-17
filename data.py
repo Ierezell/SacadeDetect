@@ -2,7 +2,7 @@ import numpy as np
 from vocabulary import Voc
 import json
 import itertools
-from settings import TIME_LIMIT, NB_EVENT_LIMIT, MIN_EVENT_SIZE
+from settings import TIME_LIMIT, MIN_EVENT_SIZE
 import math
 
 
@@ -268,14 +268,14 @@ class Donnees:
     #         if e["type"] == "visible" and isHidden:
     #             isHidden = False
     #             indexVisible = i
-    #             if len(evenements[previousVisible:indexVisible]) > NB_EVENT_LIMIT:
+    #             if len(evenements[previousVisible:indexVisible]) > MIN_EVENT_SIZE:
     #                 cutted_session = header.copy()
     #                 cutted_session["events"] = evenements[previousVisible:
     #                                                       indexVisible]
     #                 splitted_session.append(cutted_session)
     #             previousVisible = i
 
-    #     if len(evenements[indexVisible:]) > NB_EVENT_LIMIT:
+    #     if len(evenements[indexVisible:]) > MIN_EVENT_SIZE:
     #         cutted_session = header.copy()
     #         cutted_session["events"] = evenements[indexVisible:]
     #         splitted_session.append(cutted_session)
@@ -302,14 +302,14 @@ class Donnees:
                     # print("cut  ", i)
                     cutted_session = header.copy()
                     cutted_session["events"] = evenements[previousCut: i]
-                    if len(evenements[previousCut:i]) > NB_EVENT_LIMIT:
+                    if len(evenements[previousCut:i]) > MIN_EVENT_SIZE:
                         splitted_session.append(cutted_session)
                     previousCut = i
                 previousTime = timeEvent
 
             cutted_session = header.copy()
             cutted_session["events"] = evenements[previousCut:]
-            if len(evenements[previousCut:]) > NB_EVENT_LIMIT:
+            if len(evenements[previousCut:]) > MIN_EVENT_SIZE:
                 splitted_session.append(cutted_session)
         # for k in splitted_session:
         #     print(len(k['events']))

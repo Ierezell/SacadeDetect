@@ -1,3 +1,4 @@
+from shutil import copyfile
 from settings import (DEVICE, PATH_WEIGHTS_RNN,
                       PATH_WEIGHTS_CLASSIFIER, PATH_WEIGHTS_AUTOENCODER)
 from archi import SacadeRnn, Classifier, Autoencoder
@@ -10,10 +11,29 @@ def load_models(nb_pers, load_previous_state, load_classifier=True):
     classifier = Classifier(nb_pers)
     autoencoder = Autoencoder(64, 64)
     if load_previous_state:
-        sacade_rnn.load_state_dict(torch.load(PATH_WEIGHTS_RNN))
-        autoencoder.load_state_dict(torch.load(PATH_WEIGHTS_AUTOENCODER))
+        try:
+            sacade_rnn.load_state_dict(torch.load(PATH_WEIGHTS_RNN))
+        except RuntimeError:
+            sacade_rnn.load_state_dict(torch.load(
+                PATH_WEIGHTS_RNN.replace('.pt', '.bk')))
+        except FileNotFoundError:
+            print("No weights found for RNN, not loading weights")
+        try:
+            autoencoder.load_state_dict(torch.load(PATH_WEIGHTS_AUTOENCODER))
+        except RuntimeError:
+            autoencoder.load_state_dict(torch.load(
+                PATH_WEIGHTS_AUTOENCODER.replace('.pt', '.bk')))
+        except FileNotFoundError:
+            print("No weights found for autoencoder, not loading weights")
         if load_classifier:
-            classifier.load_state_dict(torch.load(PATH_WEIGHTS_CLASSIFIER))
+            try:
+                classifier.load_state_dict(torch.load(PATH_WEIGHTS_CLASSIFIER))
+            except RuntimeError:
+                classifier.load_state_dict(torch.load(
+                    PATH_WEIGHTS_CLASSIFIER.replace('.pt', '.bk')))
+            except FileNotFoundError:
+                print("No weights found for classifier, not loading weights")
+
     sacade_rnn = sacade_rnn.to(DEVICE)
     classifier = classifier.to(DEVICE)
     autoencoder = autoencoder.to(DEVICE)
@@ -41,10 +61,18 @@ class Checkpoints:
         if loss < self.best_loss or len(self.losses[model]) % 1000 == 0:
             print('\n'+'-'*21+"\n| Poids sauvegardés |\n"+'-'*21+'\n')
             self.best_loss = loss
-            torch.save(sacade_rnn.state_dict(), PATH_WEIGHTS_RNN)
-            torch.save(classifier.state_dict(), PATH_WEIGHTS_CLASSIFIER)
-            torch.save(autoencoder.state_dict(), PATH_WEIGHTS_AUTOENCODER)
-
+            torch.save(sacade_rnn.state_dict(),
+                       PATH_WEIGHTS_RNN.replace(".pt", ".bk"))
+            torch.save(classifier.state_dict(),
+                       PATH_WEIGHTS_CLASSIFIER.replace(".pt", ".bk"))
+            torch.save(autoencoder.state_dict(),
+                       PATH_WEIGHTS_AUTOENCODER.replace(".pt", ".bk"))
+            copyfile(PATH_WEIGHTS_RNN.replace(".pt", ".bk"),
+                     PATH_WEIGHTS_RNN)
+            copyfile(PATH_WEIGHTS_CLASSIFIER.replace(".pt", ".bk"),
+                     PATH_WEIGHTS_CLASSIFIER)
+            copyfile(PATH_WEIGHTS_AUTOENCODER.replace(".pt", ".bk"),
+                     PATH_WEIGHTS_AUTOENCODER)
     # def visualize(self, fig, axes,
     #               gt_landmarks, synth_im, gt_im, *models,
     #               save_fig=False, name='plop'):

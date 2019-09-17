@@ -91,13 +91,17 @@ class SacadeRnn(nn.Module):
         # Allows pytorch to NOT compute padded elements
         # packed = nn.utils.rnn.pack_padded_sequence(embedded, input_lengths)
         # Forward pass through GRU
-        packed = pack_padded_sequence(sessions, lengths, enforce_sorted=False)
+        # print("PLOP PLOP :    ", sessions.size())
+        # print("KOUKOU : ", lengths)
+        # packed = pack_padded_sequence(sessions, lengths, enforce_sorted=False)
+        # print(packed)
         if RNN == "LSTM":
-            outputs, (hidden, cells) = self.rnn1(packed)
+            outputs, (hidden, cells) = self.rnn1(sessions)
+            # print("MOOO :  ", outputs)
         elif RNN == "GRU":
-            outputs, hidden = self.gru1(packed)
-
-        outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
+            outputs, hidden = self.gru1(outputs)
+        # outputs, _ = nn.utils.rnn.pad_packed_sequence(outputs)
+        # print("BWABWA  ", outputs)
 
         outputs = outputs[:, :, :self.hidden_size] + \
             outputs[:, :, self.hidden_size:]

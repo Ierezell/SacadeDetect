@@ -25,10 +25,13 @@ from settings import (BATCH_SIZE, CONFIG, DEVICE, HIDDEN_SIZE, LEARNING_RATE,
 from utils import Checkpoints, load_models, print_parameters
 
 # plt.ion()
-
 plt.figure()
+
+date = datetime.datetime.now().replace(microsecond=0)
+train_id = "_".join(CONFIG.values())
 wandb.init(project="SacadeDetect",
-           name=f"test-{datetime.datetime.now().replace(microsecond=0)}",
+           id=train_id,
+           name=train_id,
            resume=LOAD_PREVIOUS,
            config=CONFIG)
 
@@ -61,15 +64,15 @@ Cel = Cel.to(DEVICE)
 print("torch version : ", torch.__version__)
 print("Device : ", DEVICE)
 print("Nombre d'eleves : ", voc.num_user)
-print("Nombre de donnees : ", voc.num_user)
 # print("Nombre d'eleve reduit : ", voc.user2index.keys())
 
 print_parameters(sacade_rnn)
 print_parameters(classifier)
 print_parameters(autoencoder)
 
-y_pred = np.array([])
-y_true = np.array([])
+# , Valid : {len(valid_loader)} ")
+print(f"Train : {len(train_loader)*BATCH_SIZE}")
+
 
 for i_epoch in range(NB_EPOCHS):
     for i_batch, batch in enumerate(train_loader):
@@ -81,16 +84,19 @@ for i_epoch in range(NB_EPOCHS):
         sessions = sessions.to(DEVICE)
         userids = userids.to(DEVICE)
         # print(sessions.size())
+        # print("dsfdfg   ", sessions.size())
+        # print("FHGHDFDSF   ", sessions)
         sessions = autoencoder(sessions)
         # print(sessions.size())
 
         out = sacade_rnn(sessions, lengths)
+        # print(out, out.size())
 
         out = classifier(out)
         out = out.to(DEVICE)
-        # print(out.size())
         # print(userids.size())
         loss = Cel(out, userids)
+        # print("Loss  : ", loss)
         check.addCheckpoint("loss", loss)
         check.save("loss", loss, sacade_rnn, classifier, autoencoder)
         loss.backward()
@@ -118,10 +124,15 @@ for i_epoch in range(NB_EPOCHS):
             out_rnn = out_rnn.to(DEVICE)
             out = classifier(out_rnn)
             out = out.to(DEVICE)
+            # print(out)
+
+            y_true = np.array([])
+            y_pred = np.array([])
 
             y_true = np.append(y_true, userids.cpu().data.squeeze().numpy())
             y_pred = np.append(y_pred, torch.argmax(
                 out, dim=1).cpu().data.squeeze().numpy())
+
             score += torch.sum(torch.argmax(out, dim=1) == userids)
 
         print(f"{score}/{len(valid_loader)*BATCH_SIZE} => ", end=" ")

@@ -2,7 +2,7 @@ import torch
 
 from data import Donnees
 from torch.utils.data import Dataset, DataLoader
-from settings import BATCH_SIZE, DEVICE
+from settings import BATCH_SIZE, DEVICE, NB_STUDENT
 import numpy as np
 
 
@@ -13,7 +13,7 @@ def load_data(pathJson="./Dataset/events.json"):
     donnes.remove_docs()
     donnes.remove_small()
     donnes.create_dict_persons()
-    donnes.keep_n_student(20)
+    donnes.keep_n_student(NB_STUDENT)
     sum_sess = 0
     for i, (user, session) in enumerate(donnes.dict_persons.items()):
         sum_ev = 0
@@ -22,12 +22,11 @@ def load_data(pathJson="./Dataset/events.json"):
             events = ev['events']
             sum_ev += len(events)
             list_len_ev.append(len(events))
-
+        # print(session)
         print(i, user, len(session), sum_ev/len(session), list_len_ev)
         sum_sess += len(session)
 
     print("Session totales  : ", sum_sess)
-    print(f"Train : {int(0.8*sum_sess)}, Valid : {int(0.2*sum_sess)} ")
     donnes.create_voc()
     donnes.to_numeral()
     donnes.to_vector()
@@ -86,7 +85,6 @@ def get_data_loader(datas, split_percent=0.8, workers=0):
     valid_loader = DataLoader(valid_datas, batch_size=BATCH_SIZE, shuffle=True,
                               collate_fn=collate_pad, num_workers=workers,
                               pin_memory=pin)
-
     return train_loader, valid_loader
 
 
