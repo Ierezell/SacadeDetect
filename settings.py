@@ -39,7 +39,7 @@ CONFIG = {"N_LAYERS": str(N_LAYERS),
           }
 
 folder_weights = CONFIG["N_LAYERS"] + "_" + CONFIG["DROPOUT"]+"_" +\
-    "1"+"_" + CONFIG["MIN_EVENT_SIZE"]+"_" +\
+    CONFIG["MIN_EVENT_SIZE"]+"_" +\
     CONFIG["ATTN_MODEL"]+"_" + CONFIG["HIDDEN_SIZE"]+"_" +\
     CONFIG["LEARNING_RATE"]+"_" + CONFIG["BATCH_SIZE"]+"_" +\
     CONFIG["TIME_LIMIT"]+"_" + CONFIG["NB_EPOCHS"]+CONFIG["RNN"]+'/'
