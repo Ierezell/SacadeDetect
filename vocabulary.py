@@ -81,6 +81,7 @@ class Voc:
                         try:
                             k = event["key"]
                         except KeyError:
+                            # print(event, session["pk"], userid)
                             event["key"] = "UKWN"
                         if event["key"] not in self.key2index:
                             self.key2index[event["key"]] = self.num_keys

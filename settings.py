@@ -1,6 +1,5 @@
 import os
 import torch
-
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 RNN = "LSTM"
 
@@ -8,9 +7,9 @@ RNN = "LSTM"
 # Training parameters #
 # #####################
 NB_EPOCHS = 500
-BATCH_SIZE = 16
+BATCH_SIZE = 2
 LEARNING_RATE = 5e-5
-HIDDEN_SIZE = 128
+HIDDEN_SIZE = 16
 
 
 ROOT_WEIGHTS = './weights/'
@@ -21,9 +20,9 @@ ATTN_MODEL = 'fullyconnected'  # 'fullyconnected' 'concat'
 N_LAYERS = 2
 DROPOUT = 0.2
 
-NUM_WORKERS = 12
-TIME_LIMIT = 1000000000000
-MIN_EVENT_SIZE = 1
+NUM_WORKERS = 0
+TIME_LIMIT = 10000
+MIN_EVENT_SIZE = 200
 NB_STUDENT = 10
 
 CONFIG = {"N_LAYERS": str(N_LAYERS),

@@ -13,7 +13,8 @@ def load_data(pathJson="./Dataset/events.json"):
     donnes.remove_docs()
     donnes.remove_small()
     donnes.create_dict_persons()
-    donnes.keep_n_student(NB_STUDENT)
+    if NB_STUDENT > 0:
+        donnes.keep_n_student(NB_STUDENT)
     sum_sess = 0
     for i, (user, session) in enumerate(donnes.dict_persons.items()):
         sum_ev = 0
